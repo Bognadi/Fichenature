@@ -1,125 +1,89 @@
-document.addEventListener('DOMContentLoaded', function() {
-
-    // --- Constantes et Variables ---
-    const ficheListContainer = document.getElementById('fiche-list');
-    const contentArea = document.querySelector('.content');
-    const PROGRESS_STORAGE_KEY = 'fichesLectureProgress_v2';
+document.addEventListener('DOMContentLoaded', () => {
+    const app = document.getElementById('app');
     let fichesData = [];
+    let categories = [];
 
-    // --- 1. Chargement des fiches depuis le JSON ---
     function fetchFiches() {
         return fetch('src/fiches.json')
             .then(res => res.json())
             .then(data => data.fiches || []);
     }
 
-    // --- 2. Génération dynamique de la navigation et du contenu ---
-    function renderFiches(fiches) {
-        // Nettoyer la navigation et le contenu (hors accueil)
-        ficheListContainer.innerHTML = '';
-        document.querySelectorAll('article.fiche-content:not(#welcome)').forEach(a => a.remove());
-
+    function getCategories(fiches) {
+        const cats = {};
         fiches.forEach(fiche => {
-            // Générer un id unique pour chaque fiche
-            const ficheId = fiche.fiche_numero ? `fiche${fiche.fiche_numero}` : `fiche${Math.random().toString(36).slice(2,8)}`;
-
-            // Navigation
-            const listItem = document.createElement('li');
-            const checkbox = document.createElement('input');
-            checkbox.type = 'checkbox';
-            checkbox.id = `check-${ficheId}`;
-            checkbox.dataset.ficheId = ficheId;
-            const link = document.createElement('a');
-            link.href = `#${ficheId}`;
-            link.textContent = fiche.titre || 'Fiche';
-            link.dataset.ficheId = ficheId;
-            listItem.appendChild(checkbox);
-            listItem.appendChild(link);
-            ficheListContainer.appendChild(listItem);
-
-            // Contenu
-            const article = document.createElement('article');
-            article.id = ficheId;
-            article.className = 'fiche-content';
-            article.style.display = 'none';
-            article.innerHTML = `
-                <h2>${fiche.titre || ''}</h2>
-                ${fiche.groupe ? `<p><em>${fiche.groupe}</em></p>` : ''}
-                <p>${(fiche.contenu || '').replace(/\n/g, '<br>')}</p>
-            `;
-            contentArea.appendChild(article);
+            if (!cats[fiche.groupe]) cats[fiche.groupe] = [];
+            cats[fiche.groupe].push(fiche);
         });
+        return cats;
     }
 
-    // --- 3. Fonctions principales ---
-    function showFiche(ficheId) {
-        document.querySelectorAll('article.fiche-content').forEach(article => {
-            article.style.display = 'none';
+    function renderHome() {
+        app.innerHTML = `
+            <section class="home">
+                <h1>Expériences de la Nature</h1>
+                <p class="subtitle">Fiches de lecture – Programme 2025-2026</p>
+                <div class="categories">
+                    ${Object.keys(categories).map(cat =>
+                        `<button class="category-btn" data-category="${cat}">${cat}</button>`
+                    ).join('')}
+                </div>
+            </section>
+        `;
+        document.querySelectorAll('.category-btn').forEach(btn => {
+            btn.onclick = () => renderCategory(btn.dataset.category);
         });
-        const activeArticle = document.getElementById(ficheId);
-        if (activeArticle) {
-            activeArticle.style.display = 'block';
-            contentArea.scrollTop = 0;
-        }
-        document.querySelectorAll('#fiche-list a').forEach(link => {
-            link.classList.toggle('active', link.dataset.ficheId === ficheId);
+        history.replaceState({view: 'home'}, '', '#home');
+    }
+
+    function renderCategory(category) {
+        const fiches = categories[category];
+        app.innerHTML = `
+            <section class="category">
+                <button class="back-btn">&larr; Retour</button>
+                <h2>${category}</h2>
+                <div class="fiche-list">
+                    ${fiches.map(fiche =>
+                        `<div class="fiche-card" data-fiche="${fiche.fiche_numero}">
+                            <h3>${fiche.titre}</h3>
+                            <p>${fiche.contenu.slice(0, 120)}...</p>
+                        </div>`
+                    ).join('')}
+                </div>
+            </section>
+        `;
+        document.querySelector('.back-btn').onclick = renderHome;
+        document.querySelectorAll('.fiche-card').forEach(card => {
+            card.onclick = () => renderFiche(category, card.dataset.fiche);
         });
-        history.pushState(null, '', `#${ficheId}`);
+        history.pushState({view: 'category', category}, '', `#category-${encodeURIComponent(category)}`);
     }
 
-    function saveProgress() {
-        const progress = {};
-        document.querySelectorAll('#fiche-list input[type="checkbox"]').forEach(box => {
-            progress[box.dataset.ficheId] = box.checked;
-        });
-        localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(progress));
+    function renderFiche(category, ficheNum) {
+        const fiche = categories[category].find(f => f.fiche_numero == ficheNum);
+        app.innerHTML = `
+            <section class="fiche-detail">
+                <button class="back-btn">&larr; Retour</button>
+                <h2>${fiche.titre}</h2>
+                <p class="fiche-group">${fiche.groupe}</p>
+                <div class="fiche-content">${fiche.contenu.replace(/\n/g, '<br>')}</div>
+            </section>
+        `;
+        document.querySelector('.back-btn').onclick = () => renderCategory(category);
+        history.pushState({view: 'fiche', category, ficheNum}, '', `#fiche-${ficheNum}`);
     }
 
-    function loadProgress() {
-        const savedProgress = JSON.parse(localStorage.getItem(PROGRESS_STORAGE_KEY));
-        if (savedProgress) {
-            document.querySelectorAll('#fiche-list input[type="checkbox"]').forEach(box => {
-                if (savedProgress[box.dataset.ficheId]) {
-                    box.checked = true;
-                }
-            });
-        }
-    }
+    // SPA navigation on browser back/forward
+    window.onpopstate = (e) => {
+        if (!e.state || e.state.view === 'home') renderHome();
+        else if (e.state.view === 'category') renderCategory(e.state.category);
+        else if (e.state.view === 'fiche') renderFiche(e.state.category, e.state.ficheNum);
+    };
 
-    function handleInitialLoad() {
-        const initialFicheId = window.location.hash.substring(1);
-        if (document.getElementById(initialFicheId)) {
-            showFiche(initialFicheId);
-        } else {
-            showFiche('welcome');
-        }
-    }
-
-    // --- 4. Événements ---
-    ficheListContainer.addEventListener('click', function(e) {
-        if (e.target.tagName === 'A') {
-            e.preventDefault();
-            const ficheId = e.target.dataset.ficheId;
-            showFiche(ficheId);
-        }
+    // Initial load
+    fetchFiches().then(fiches => {
+        fichesData = fiches;
+        categories = getCategories(fiches);
+        renderHome();
     });
-    
-    // Changements sur les cases à cocher
-    ficheListContainer.addEventListener('change', function(e) {
-        if (e.target.tagName === 'INPUT' && e.target.type === 'checkbox') {
-            saveProgress();
-        }
-    });
-
-    // Gère les boutons précédent/suivant du navigateur
-    window.addEventListener('popstate', handleInitialLoad);
-
-    // --- 5. Exécution ---
-    fetchFiches()
-        .then(fiches => {
-            fichesData = fiches;
-            renderFiches(fiches);
-            loadProgress();
-            handleInitialLoad();
-        });
 });
