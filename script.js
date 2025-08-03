@@ -3,63 +3,70 @@ document.addEventListener('DOMContentLoaded', function() {
     // --- Constantes et Variables ---
     const ficheListContainer = document.getElementById('fiche-list');
     const contentArea = document.querySelector('.content');
-    const allFicheArticles = document.querySelectorAll('article.fiche-content');
     const PROGRESS_STORAGE_KEY = 'fichesLectureProgress_v2';
+    let fichesData = [];
 
-    // --- 1. Initialisation ---
-    
-    // Génère la liste de navigation à partir des articles HTML
-    function generateNav() {
-        allFicheArticles.forEach(article => {
-            if (article.id === 'welcome') return; // Ne pas inclure la page d'accueil dans la liste
+    // --- 1. Chargement des fiches depuis le JSON ---
+    function fetchFiches() {
+        return fetch('src/fiches.json')
+            .then(res => res.json())
+            .then(data => data.fiches || []);
+    }
 
-            const ficheId = article.id;
-            const title = article.querySelector('h2').textContent;
-            
+    // --- 2. Génération dynamique de la navigation et du contenu ---
+    function renderFiches(fiches) {
+        // Nettoyer la navigation et le contenu (hors accueil)
+        ficheListContainer.innerHTML = '';
+        document.querySelectorAll('article.fiche-content:not(#welcome)').forEach(a => a.remove());
+
+        fiches.forEach(fiche => {
+            // Générer un id unique pour chaque fiche
+            const ficheId = fiche.fiche_numero ? `fiche${fiche.fiche_numero}` : `fiche${Math.random().toString(36).slice(2,8)}`;
+
+            // Navigation
             const listItem = document.createElement('li');
-            
             const checkbox = document.createElement('input');
             checkbox.type = 'checkbox';
             checkbox.id = `check-${ficheId}`;
             checkbox.dataset.ficheId = ficheId;
-            
             const link = document.createElement('a');
             link.href = `#${ficheId}`;
-            link.textContent = title;
+            link.textContent = fiche.titre || 'Fiche';
             link.dataset.ficheId = ficheId;
-
             listItem.appendChild(checkbox);
             listItem.appendChild(link);
             ficheListContainer.appendChild(listItem);
+
+            // Contenu
+            const article = document.createElement('article');
+            article.id = ficheId;
+            article.className = 'fiche-content';
+            article.style.display = 'none';
+            article.innerHTML = `
+                <h2>${fiche.titre || ''}</h2>
+                ${fiche.groupe ? `<p><em>${fiche.groupe}</em></p>` : ''}
+                <p>${(fiche.contenu || '').replace(/\n/g, '<br>')}</p>
+            `;
+            contentArea.appendChild(article);
         });
     }
 
-    // --- 2. Fonctions Principales ---
-
-    // Affiche une fiche spécifique et met à jour l'URL
+    // --- 3. Fonctions principales ---
     function showFiche(ficheId) {
-        // Cacher toutes les fiches
-        allFicheArticles.forEach(article => {
+        document.querySelectorAll('article.fiche-content').forEach(article => {
             article.style.display = 'none';
         });
-        
-        // Afficher la fiche sélectionnée
         const activeArticle = document.getElementById(ficheId);
         if (activeArticle) {
             activeArticle.style.display = 'block';
-            contentArea.scrollTop = 0; // Remonter en haut du contenu
+            contentArea.scrollTop = 0;
         }
-        
-        // Mettre à jour la classe 'active' pour le lien de navigation
         document.querySelectorAll('#fiche-list a').forEach(link => {
             link.classList.toggle('active', link.dataset.ficheId === ficheId);
         });
-
-        // Mettre à jour l'URL sans recharger la page
         history.pushState(null, '', `#${ficheId}`);
     }
 
-    // Sauvegarde la progression (cases cochées) dans le localStorage
     function saveProgress() {
         const progress = {};
         document.querySelectorAll('#fiche-list input[type="checkbox"]').forEach(box => {
@@ -68,7 +75,6 @@ document.addEventListener('DOMContentLoaded', function() {
         localStorage.setItem(PROGRESS_STORAGE_KEY, JSON.stringify(progress));
     }
 
-    // Charge la progression depuis le localStorage
     function loadProgress() {
         const savedProgress = JSON.parse(localStorage.getItem(PROGRESS_STORAGE_KEY));
         if (savedProgress) {
@@ -80,7 +86,6 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Gère la navigation initiale basée sur l'URL
     function handleInitialLoad() {
         const initialFicheId = window.location.hash.substring(1);
         if (document.getElementById(initialFicheId)) {
@@ -90,9 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // --- 3. Écouteurs d'Événements ---
-
-    // Clics sur la liste de navigation
+    // --- 4. Événements ---
     ficheListContainer.addEventListener('click', function(e) {
         if (e.target.tagName === 'A') {
             e.preventDefault();
@@ -111,8 +114,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Gère les boutons précédent/suivant du navigateur
     window.addEventListener('popstate', handleInitialLoad);
 
-    // --- 4. Exécution ---
-    generateNav();
-    loadProgress();
-    handleInitialLoad();
+    // --- 5. Exécution ---
+    fetchFiches()
+        .then(fiches => {
+            fichesData = fiches;
+            renderFiches(fiches);
+            loadProgress();
+            handleInitialLoad();
+        });
 });

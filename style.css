@@ -107,7 +107,7 @@ body {
 /* --- Contenu des Fiches --- */
 .fiche-content {
     max-width: 800px;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .fiche-content h1, .fiche-content h2 {
