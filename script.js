@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const app = document.getElementById('app');
     let fichesData = [];
-    let categories = [];
+    let categories = {};
 
     function fetchFiches() {
         return fetch('src/fiches.json')
@@ -11,7 +11,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function getCategories(fiches) {
         const cats = {};
-        fiches.forEach(fiche => {
+        fiches.forEach((fiche, idx) => {
+            // Ensure every fiche has a unique id and a title
+            if (!fiche.fiche_numero) fiche.fiche_numero = idx.toString();
+            if (!fiche.titre) fiche.titre = 'Fiche sans titre';
+            if (!fiche.groupe) fiche.groupe = 'Autres';
             if (!cats[fiche.groupe]) cats[fiche.groupe] = [];
             cats[fiche.groupe].push(fiche);
         });
@@ -43,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <button class="back-btn">&larr; Retour</button>
                 <h2>${category}</h2>
                 <div class="fiche-list">
-                    ${fiches.map(fiche =>
+                    ${fiches.map((fiche, idx) =>
                         `<div class="fiche-card" data-fiche="${fiche.fiche_numero}">
                             <h3>${fiche.titre}</h3>
                             <p>${fiche.contenu.slice(0, 120)}...</p>
@@ -60,7 +64,15 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function renderFiche(category, ficheNum) {
-        const fiche = categories[category].find(f => f.fiche_numero == ficheNum);
+        const fiches = categories[category];
+        // Use string comparison for fiche_numero
+        const fiche = fiches.find((f, idx) =>
+            (f.fiche_numero || idx.toString()) == ficheNum
+        );
+        if (!fiche) {
+            renderCategory(category);
+            return;
+        }
         app.innerHTML = `
             <section class="fiche-detail">
                 <button class="back-btn">&larr; Retour</button>
@@ -83,7 +95,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial load
     fetchFiches().then(fiches => {
         fichesData = fiches;
-        categories = getCategories(fiches);
+        categories = getCategories(fichesData);
         renderHome();
     });
 });
