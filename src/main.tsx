@@ -16,6 +16,14 @@ import ThemeSection from '../components/ThemeSection';
 import "../styles/globals.css";
 import fichesData from './fiches.json';
 
+type Flashcard = {
+  id: string;
+  question: string;
+  answer: string;
+  createdAt?: Date;
+  // Add other fields as needed
+};
+
 export default function App() {
   type BookProgress = {
     completed: number;
@@ -352,6 +360,7 @@ export default function App() {
       setActiveTab('flashcards');
     }}
     onNavigateToThemes={() => setActiveTab('themes')}
+    themeProgress={themeProgress}
     resetAdvancement={resetAdvancement} // <-- Pass the reset function
   />;
 }
