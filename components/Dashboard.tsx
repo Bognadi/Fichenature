@@ -33,6 +33,9 @@ export default function Dashboard({
   onCreateFlashcard,
   addFlashcard,
   onOpenFlashcard,
+  onNavigateToThemes,
+  themeProgress, // <-- Add this prop
+  resetAdvancement, // <-- Add this prop
 }) {
   const totalProgress =
     books.reduce(
@@ -66,6 +69,13 @@ export default function Dashboard({
             thématiques et un système de révision par
             flashcards.
           </p>
+          <button
+            className="text-xs text-red-600 underline mt-2"
+            onClick={resetAdvancement}
+            type="button"
+          >
+            Réinitialiser la progression
+          </button>
         </div>
 
         {/* Stats Overview */}
@@ -174,6 +184,7 @@ export default function Dashboard({
                   </Button>
                   <Button 
                     onClick={onNavigateToFlashcards}
+                    variant="main-cta"
                     className="flex items-center gap-2"
                   >
                     <RotateCcw className="w-4 h-4" />
@@ -280,68 +291,71 @@ export default function Dashboard({
             Œuvres au programme
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-            {books.map((book) => (
-              <Card
-                key={book.id}
-                className={`cursor-pointer hover:shadow-lg transition-all duration-300 ${book.color}`}
+            {books
+              // Filter out the methodology card if it's present in books
+              .filter((book) => book.id !== methodology.id)
+              .map((book) => (
+          <Card
+            key={book.id}
+            className={`cursor-pointer hover:shadow-lg transition-all duration-300 ${book.color}`}
+          >
+            <CardHeader>
+              <div className="flex items-start justify-between">
+                <BookOpen className="h-6 w-6 text-primary" />
+                <Badge variant="secondary">
+            {book.progress?.completed || 0}/
+            {book.progress?.total || 0}
+                </Badge>
+              </div>
+              <CardTitle className="text-lg">
+                {book.title}
+              </CardTitle>
+              <CardDescription className="font-medium">
+                {book.author}
+              </CardDescription>
+              <p className="text-sm text-muted-foreground">
+                {book.description}
+              </p>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="space-y-2">
+                <div className="flex justify-between text-sm">
+            <span>Progression</span>
+            <span>
+              {Math.round(
+                ((book.progress?.completed || 0) /
+                  (book.progress?.total || 1)) *
+                  100,
+              )}
+              %
+            </span>
+                </div>
+                <Progress
+            value={
+              ((book.progress?.completed || 0) /
+                (book.progress?.total || 1)) *
+              100
+            }
+            className="h-2"
+                />
+              </div>
+              <Button
+                onClick={() => onNavigateToBook(book.id)}
+                className="w-full"
+                variant={
+            (book.progress?.completed || 0) === 0
+              ? "main-cta"
+              : "outline"
+                }
               >
-                <CardHeader>
-                  <div className="flex items-start justify-between">
-                    <BookOpen className="h-6 w-6 text-primary" />
-                    <Badge variant="secondary">
-                      {book.progress?.completed || 0}/
-                      {book.progress?.total || 0}
-                    </Badge>
-                  </div>
-                  <CardTitle className="text-lg">
-                    {book.title}
-                  </CardTitle>
-                  <CardDescription className="font-medium">
-                    {book.author}
-                  </CardDescription>
-                  <p className="text-sm text-muted-foreground">
-                    {book.description}
-                  </p>
-                </CardHeader>
-                <CardContent className="space-y-4">
-                  <div className="space-y-2">
-                    <div className="flex justify-between text-sm">
-                      <span>Progression</span>
-                      <span>
-                        {Math.round(
-                          ((book.progress?.completed || 0) /
-                            (book.progress?.total || 1)) *
-                            100,
-                        )}
-                        %
-                      </span>
-                    </div>
-                    <Progress
-                      value={
-                        ((book.progress?.completed || 0) /
-                          (book.progress?.total || 1)) *
-                        100
-                      }
-                      className="h-2"
-                    />
-                  </div>
-                  <Button
-                    onClick={() => onNavigateToBook(book.id)}
-                    className="w-full"
-                    variant={
-                      (book.progress?.completed || 0) === 0
-                        ? "default"
-                        : "outline"
-                    }
-                  >
-                    <Play className="w-4 h-4 mr-2" />
-                    {(book.progress?.completed || 0) === 0
-                      ? "Commencer"
-                      : "Continuer"}
-                  </Button>
-                </CardContent>
-              </Card>
-            ))}
+                <Play className="w-4 h-4 mr-2" />
+                {(book.progress?.completed || 0) === 0
+            ? "Commencer"
+            : "Continuer"}
+              </Button>
+            </CardContent>
+          </Card>
+              ))}
           </div>
         </div>
 
@@ -397,7 +411,7 @@ export default function Dashboard({
                   className="w-full"
                   variant={
                     (methodology.progress?.completed || 0) === 0
-                      ? "default"
+                      ? "main-cta"
                       : "outline"
                   }
                 >
@@ -409,24 +423,46 @@ export default function Dashboard({
               </CardContent>
             </Card>
 
-            <Card>
+            <Card className="bg-pink-50 border-pink-200 cursor-pointer hover:shadow-lg transition-all duration-300">
               <CardHeader>
-                <CardTitle className="flex items-center gap-2">
-                  <TrendingUp className="h-5 w-5" />
+                <div className="flex items-start justify-between">
+                  <TrendingUp className="h-6 w-6 text-primary" />
+                  <Badge variant="secondary" className="text-xs self-start">
+                    {themeProgress?.completed || 0} / {themeProgress?.total || 0}
+                  </Badge>
+                </div>
+                <CardTitle className="text-lg mt-2">
                   Thèmes transversaux
                 </CardTitle>
-                <CardDescription>
-                  Explorez les connexions entre les œuvres et
-                  les grands thèmes philosophiques
+                <CardDescription className="text-sm mt-1">
+                  Explorez les connexions entre les œuvres et les grands thèmes philosophiques
                 </CardDescription>
+                <div className="space-y-2 mt-4">
+                  <div className="flex justify-between text-sm">
+                    <span>Progression</span>
+                    <span>
+                      {themeProgress?.total
+                        ? Math.round((themeProgress.completed / themeProgress.total) * 100)
+                        : 0
+                      }
+                      %
+                    </span>
+                  </div>
+                  <Progress
+                    value={
+                      (themeProgress?.completed || 0) / (themeProgress?.total || 1) * 100
+                    }
+                    className="h-2"
+                  />
+                </div>
               </CardHeader>
-              <CardContent>
+              <CardContent className="space-y-4">
                 <Button
-                  variant="outline"
+                  variant="main-cta"
                   className="w-full"
-                  disabled
+                  onClick={() => onNavigateToThemes()}
                 >
-                  Bientôt disponible
+                  Accéder aux thèmes
                 </Button>
               </CardContent>
             </Card>

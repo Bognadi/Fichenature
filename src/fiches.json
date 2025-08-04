@@ -1,142 +1,378 @@
 {
   "fiches": [
     {
+      "id": "fiche-1",
       "fiche_numero": 1,
-      "titre": "Fiche 1 : Georges Canguilhem (1904-1995)",
-      "groupe": "La Connaissance de la vie",
-      "contenu": "Georges Canguilhem était un philosophe et médecin français, très influent dans le domaine de la philosophie des sciences. Issu d'un milieu modeste, il est devenu un étudiant brillant, puis professeur de philosophie. Pendant la Seconde Guerre mondiale, il s'est engagé dans la Résistance. Cette expérience, ainsi que ses études de médecine, l'ont amené à développer une philosophie concrète, qui s'intéresse à la vie réelle. Pour lui, pour bien comprendre un concept scientifique (comme la santé ou la maladie), il faut en connaître l'histoire. Ses livres majeurs, 'Le Normal et le Pathologique' et 'La Connaissance de la vie', explorent justement ces questions et ont marqué de nombreux penseurs, dont le célèbre Michel Foucault."
+      "title": "Georges Canguilhem (1904-1995)",
+      "group": "La Connaissance de la vie",
+      "author": "Georges Canguilhem",
+      "summary": "Cette fiche présente la biographie de Georges Canguilhem, un philosophe et médecin français. Elle retrace son parcours, de son milieu modeste à sa carrière de professeur, en soulignant son engagement dans la Résistance. Son expérience de la guerre et ses études de médecine ont profondément influencé sa pensée, le menant à développer une philosophie concrète, centrée sur l'histoire des concepts scientifiques pour en comprendre le sens.",
+      "content": "Georges Canguilhem est une figure majeure de la philosophie des sciences en France. Né dans un milieu modeste, il se distingue par sa brillante scolarité qui le mène à l'École normale supérieure aux côtés de figures comme Sartre et Aron. Il devient ensuite professeur de philosophie. Un tournant majeur de sa vie est son engagement dans la Résistance durant la Seconde Guerre mondiale, sous le pseudonyme de Lafont. Parallèlement, il entreprend des études de médecine, non pas pour pratiquer, mais pour enrichir sa réflexion philosophique. Cette double casquette de philosophe et de médecin lui permet de développer une approche originale : pour comprendre un concept scientifique (comme la santé, la maladie, la vie), il est indispensable d'en étudier l'histoire, de voir comment il a émergé et évolué. Ses œuvres principales, 'Le Normal et le Pathologique' et 'La Connaissance de la vie', sont le fruit de cette démarche et ont eu une influence considérable sur des penseurs comme Michel Foucault.",
+      "concepts": ["Philosophie des sciences", "Épistémologie", "Le Normal et le Pathologique", "Histoire des sciences", "Résistance", "Vitalisme"],
+      "questions": [
+        "Quel est le lien entre l'engagement de Canguilhem dans la Résistance et sa philosophie ?",
+        "Pourquoi Canguilhem a-t-il entrepris des études de médecine ?",
+        "Quelle est l'importance de l'histoire des sciences dans la pensée de Canguilhem ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-2",
       "fiche_numero": 2,
-      "titre": "Fiche 2 : Le contexte de 'La Connaissance de la vie'",
-      "groupe": "La Connaissance de la vie",
-      "contenu": "L'œuvre 'La Connaissance de la vie' a été écrite dans le contexte de l'après-Seconde Guerre mondiale. C'était une période de reconstruction, mais aussi de grands questionnements éthiques sur la science et la médecine suite aux atrocités de la guerre. Parallèlement, la biologie connaissait une véritable révolution, avec des découvertes majeures comme la structure de l'ADN. Sur le plan philosophique, le débat faisait rage entre deux visions du monde vivant : le 'mécanisme' (la vie est une machine complexe) et le 'vitalisme' (la vie a une force propre qui ne peut être réduite à la physique). Canguilhem s'inscrit dans ce contexte en proposant une réflexion profonde sur ce que signifie 'connaître' le vivant."
+      "title": "Le contexte de 'La Connaissance de la vie'",
+      "group": "La Connaissance de la vie",
+      "author": "Georges Canguilhem",
+      "summary": "L'œuvre de Canguilhem s'inscrit dans une triple contexte : historique (l'après-guerre et la reconstruction), scientifique (la révolution de la biologie avec la découverte de l'ADN) et philosophique (le débat entre 'vitalisme' et 'mécanisme'). Cette fiche explore comment ces éléments ont façonné sa réflexion sur la connaissance du vivant.",
+      "content": "Pour bien comprendre 'La Connaissance de la vie', il faut le situer dans son époque. \n1. **Contexte historique et social** : Le livre est écrit après la Seconde Guerre mondiale. Cette période de reconstruction est marquée par les questions éthiques soulevées par les horreurs de la guerre, qui poussent à repenser le rôle et les limites de la science et de la médecine.\n2. **Contexte scientifique** : La biologie est en pleine effervescence. Des découvertes fondamentales, comme celle de la structure de l'ADN, bouleversent la compréhension du vivant. De nouvelles spécialités comme la génétique et l'immunologie apparaissent.\n3. **Contexte philosophique** : Le grand débat de l'époque oppose deux visions du vivant. Le 'mécanisme' voit la vie comme une machine complexe qui peut être expliquée par les lois de la physique et de la chimie. Le 'vitalisme', au contraire, soutient que la vie possède une force ou un élan propre, irréductible à de simples mécanismes. Canguilhem se situe dans ce débat en proposant une voie originale pour penser la spécificité de la vie.",
+      "concepts": ["Après-guerre", "Éthique médicale", "Découverte de l'ADN", "Vitalisme", "Mécanisme", "Philosophie de la vie"],
+      "questions": [
+        "Comment le contexte de l'après-guerre a-t-il influencé la pensée de Canguilhem ?",
+        "Quelles sont les deux grandes approches philosophiques du vivant à cette époque, et comment Canguilhem se positionne-t-il ?",
+        "En quoi les avancées scientifiques de l'époque ont-elles nourri la réflexion du livre ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-3",
       "fiche_numero": 3,
-      "titre": "Fiche 3 : Présentation de 'La Connaissance de la vie'",
-      "groupe": "La Connaissance de la vie",
-      "contenu": "Ce livre est un recueil d'articles et de conférences de Georges Canguilhem. Son titre est essentiel pour comprendre sa pensée : la connaissance n'est pas quelque chose d'extérieur à la vie, elle en fait partie. C'est parce que l'être humain est un être vivant qu'il cherche à connaître le monde pour y survivre et s'y adapter. Canguilhem critique l'idée d'une science totalement neutre et objective. Pour lui, la connaissance est toujours liée à nos besoins vitaux. Il insiste aussi sur le fait que la vie est une 'totalité' : on ne peut pas la comprendre en la décomposant en petites parties, il faut la saisir dans sa globalité et sa complexité."
+      "title": "Présentation de 'La Connaissance de la vie'",
+      "group": "La Connaissance de la vie",
+      "author": "Georges Canguilhem",
+      "summary": "Ce livre, recueil d'articles, explore la relation profonde entre la vie et l'acte de connaître. Canguilhem y défend l'idée que la connaissance n'est pas une activité abstraite, mais une fonction biologique, un outil que le vivant utilise pour s'adapter à son milieu. Il critique ainsi la science 'objective' et montre que la vie doit être comprise comme une totalité complexe et non comme une simple somme de parties.",
+      "content": "'La Connaissance de la vie' est une œuvre majeure de Canguilhem, publiée pour la première fois en 1952. Bien qu'il s'agisse d'un recueil d'articles écrits à différentes périodes, le livre possède une forte unité de pensée. \nLe titre lui-même est un programme : il s'agit de comprendre que la connaissance est DANS la vie. Pour Canguilhem, connaître n'est pas une activité purement intellectuelle et désintéressée. C'est avant tout un fait biologique : l'être humain, en tant qu'être vivant, cherche à connaître son environnement pour résoudre les problèmes qu'il lui pose et pour y survivre. La connaissance est donc un outil au service de la vie.\nCanguilhem critique ainsi l'idée d'une science 'pure', totalement objective et détachée des besoins vitaux. Il insiste également sur le fait que la vie est une 'totalité'. On ne peut pas la comprendre en l'analysant comme une machine, en additionnant ses composants. Il faut l'appréhender dans sa complexité, dans la manière dont un organisme interagit avec son milieu.",
+      "concepts": ["Connaissance biologique", "Rapport au milieu", "Totalité du vivant", "Anti-positivisme", "Vie et connaissance"],
+      "questions": [
+        "Que signifie le titre 'La Connaissance de la vie' ?",
+        "Pourquoi Canguilhem critique-t-il l'idée d'une science purement objective ?",
+        "Qu'entend Canguilhem par le fait que la vie est une 'totalité' ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-4",
       "fiche_numero": 4,
-      "titre": "Fiche 4 : Structure et analyse de 'La Connaissance de la vie'",
-      "groupe": "La Connaissance de la vie",
-      "contenu": "L'ouvrage se divise en trois grandes parties : 'Méthode', 'Histoire' et 'Philosophie'. Dans l'introduction, Canguilhem explique que la connaissance n'est pas un but en soi, mais un outil pour la vie. La première partie analyse les difficultés de l'expérimentation en biologie : contrairement à la matière inerte, chaque être vivant est unique, complexe et changeant. La troisième partie, la plus philosophique, aborde des thèmes clés : la différence entre un organisme vivant et une machine, la relation entre un être vivant et son milieu (l'environnement), la définition de ce qui est 'normal' et 'pathologique' (malade), et enfin la question de la 'monstruosité' comme une autre possibilité de la vie."
+      "title": "Structure et analyse de 'La Connaissance de la vie'",
+      "group": "La Connaissance de la vie",
+      "author": "Georges Canguilhem",
+      "summary": "L'ouvrage est structuré en trois parties qui explorent la méthode, l'histoire et la philosophie de la biologie. Cette fiche détaille le contenu de chaque partie, de l'analyse des difficultés de l'expérimentation sur le vivant à la réflexion sur des concepts clés comme la machine, le milieu, le normal, le pathologique et le monstrueux.",
+      "content": "Le livre est un recueil d'articles organisé en trois grandes parties, précédées d'une introduction fondamentale.\n\n**Introduction - 'La pensée et le vivant'** : Canguilhem pose les bases de sa réflexion. La connaissance n'est pas une fin en soi ('savoir pour savoir'), mais une méthode que le vivant utilise pour surmonter les obstacles de son environnement. La connaissance est donc au service de la vie.\n\n**Partie I - 'Méthode'** : Cette partie, à travers le chapitre sur 'L’expérimentation en biologie animale', montre que l'on ne peut pas étudier un être vivant comme on étudie un objet inerte. Le biologiste doit faire face à des obstacles spécifiques : chaque individu est unique (individualisation), un organisme est un tout indivisible (totalité), il évolue dans le temps (irréversibilité) et l'expérimentation pose des problèmes éthiques.\n\n**Partie III - 'Philosophie'** (La Partie II sur la théorie cellulaire n'est pas au programme) : Cette section explore les grands concepts qui animent la biologie.\n- **'Machine et organisme'** : Un organisme vivant est-il une simple machine ? Canguilhem montre que non, car le vivant possède une capacité d'auto-organisation et d'adaptation que n'a pas la machine.\n- **'Le vivant et son milieu'** : L'être vivant ne subit pas passivement son environnement, il le construit activement. 'Le propre du vivant, c'est de se faire son milieu'.\n- **'Le normal et le pathologique'** : La maladie n'est pas juste un écart par rapport à une norme statistique. C'est une autre manière de vivre, avec de nouvelles normes, mais une capacité d'adaptation réduite. La santé, c'est la capacité à pouvoir tomber malade et à se rétablir.\n- **'La monstruosité et le monstrueux'** : Le monstre n'est pas une 'erreur' de la nature, mais une autre forme de vie possible, une manifestation de la créativité du vivant.",
+      "concepts": ["Méthode biologique", "Théorie cellulaire", "Machine et organisme", "Le vivant et son milieu", "Normal et pathologique", "Monstruosité"],
+      "questions": [
+        "Quels sont les principaux obstacles à l'expérimentation en biologie selon Canguilhem ?",
+        "Quelle est la différence fondamentale entre une machine et un organisme vivant ?",
+        "Comment Canguilhem définit-il la santé et la maladie ?",
+        "Que représente le 'monstre' dans la pensée de Canguilhem ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-5",
       "fiche_numero": 5,
-      "titre": "Fiche 5 : Jules Verne (1828-1897)",
-      "groupe": "Vingt Mille Lieues sous les mers",
-      "contenu": "Jules Verne est un célèbre écrivain français, souvent considéré comme le père de la science-fiction. Né à Nantes, un port ouvert sur le monde, il est fasciné dès son plus jeune âge par les voyages et l'aventure. Envoyé à Paris pour faire des études de droit, il préfère se consacrer à l'écriture. Sa carrière décolle grâce à sa rencontre avec l'éditeur Pierre-Jules Hetzel, qui lui propose d'inventer un nouveau genre : le 'roman de la science'. C'est le début des 'Voyages extraordinaires', une série de romans qui mêlent aventures passionnantes, explorations géographiques et vulgarisation scientifique. Des œuvres comme 'Vingt mille lieues sous les mers', 'Voyage au centre de la Terre' ou 'Le Tour du monde en 80 jours' lui apporteront un immense succès et une renommée mondiale."
+      "title": "Jules Verne (1828-1897)",
+      "group": "Vingt Mille Lieues sous les mers",
+      "author": "Jules Verne",
+      "summary": "Cette fiche retrace la vie de Jules Verne, l'un des pères de la science-fiction. Fasciné par les voyages dès son enfance à Nantes, il abandonne le droit pour l'écriture à Paris. Sa rencontre avec l'éditeur Pierre-Jules Hetzel est décisive : ensemble, ils créent le 'roman de la science' avec la collection des 'Voyages extraordinaires', qui lui apportera un succès mondial.",
+      "content": "Jules Verne est un des écrivains français les plus lus au monde. \n\n**Enfance et adolescence** : Né à Nantes, ville portuaire qui nourrit son imagination, il est très tôt attiré par l'aventure et les voyages, une passion qu'il partage avec son frère Paul. Son père le destine à une carrière d'avoué, mais Jules Verne rêve d'autre chose.\n\n**Le séjour parisien** : Envoyé à Paris pour ses études de droit, il se plonge dans les cercles littéraires, rencontre Victor Hugo et Alexandre Dumas, et se lance dans l'écriture de pièces de théâtre. Il décide d'abandonner le droit pour se consacrer entièrement à la littérature.\n\n**Rencontres décisives et premiers succès** : Sa rencontre avec l'éditeur Pierre-Jules Hetzel change sa vie. Hetzel a l'intuition de génie d'un nouveau genre littéraire : le 'roman de vulgarisation scientifique'. Il propose à Verne d'écrire des romans d'aventures basés sur les découvertes scientifiques et techniques de l'époque. Le premier roman de cette série, 'Cinq semaines en ballon' (1863), est un succès immédiat. C'est le début d'une longue et fructueuse collaboration et de la célèbre collection des 'Voyages extraordinaires', qui comptera 62 romans, dont les chefs-d'œuvre 'Voyage au centre de la Terre', 'Vingt mille lieues sous les mers' et 'Le Tour du monde en 80 jours'.\n\n**La Picardie et la fin de vie** : Installé en Picardie, il continue d'écrire à un rythme soutenu, tout en voyageant. La fin de sa vie est plus sombre, marquée par des drames personnels et des problèmes de santé, mais il ne cessera jamais d'écrire.",
+      "concepts": ["Voyages extraordinaires", "Roman scientifique", "Aventure", "Exploration", "Progrès technique", "Vulgarisation"],
+      "questions": [
+        "Quel rôle a joué l'éditeur Pierre-Jules Hetzel dans la carrière de Jules Verne ?",
+        "Qu'est-ce que le genre du 'roman de la science' ?",
+        "Comment l'enfance de Jules Verne a-t-elle influencé son œuvre ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-6",
       "fiche_numero": 6,
-      "titre": "Fiche 6 : Le contexte de 'Vingt mille lieues sous les mers'",
-      "groupe": "Vingt Mille Lieues sous les mers",
-      "contenu": "Le roman s'inscrit dans le contexte historique et intellectuel du 19ème siècle. C'est une époque de révolutions politiques et de lutte des peuples pour leur indépendance, un esprit incarné par le Capitaine Nemo. C'est aussi un siècle de foi immense dans le progrès, la science et l'industrie (une idée portée par des penseurs comme Saint-Simon). Le monde est fasciné par les nouvelles inventions (l'électricité, les premiers sous-marins) et par les grandes explorations géographiques qui visent à découvrir les dernières zones inconnues du globe, comme les pôles. Le roman de Jules Verne est un concentré de cet esprit d'aventure et de cette passion pour la science."
+      "title": "Le contexte de 'Vingt mille lieues sous les mers'",
+      "group": "Vingt Mille Lieues sous les mers",
+      "author": "Jules Verne",
+      "summary": "Le roman est le pur produit du 19ème siècle. Il reflète l'esprit révolutionnaire de l'époque (le Printemps des peuples), la foi dans le progrès scientifique et technique (positivisme, Saint-Simonisme), et la fascination pour les grandes explorations géographiques qui visaient à cartographier les derniers 'blancs' de la planète.",
+      "content": "Le roman de Jules Verne est profondément ancré dans le contexte du 19ème siècle.\n\n**Contexte historique** : C'est un siècle de révolutions. L'Europe est secouée par des mouvements nationaux et libéraux (le 'Printemps des peuples' de 1848). Le personnage du Capitaine Nemo, homme en lutte contre l'oppression et défenseur des peuples asservis, incarne cet esprit révolutionnaire. C'est aussi l'époque de la Révolution industrielle, du capitalisme triomphant et de l'expansion coloniale, des thèmes qui apparaissent en filigrane dans le roman.\n\n**Contexte intellectuel** : C'est le siècle du 'positivisme' d'Auguste Comte et des idées de Saint-Simon. Ces courants de pensée partagent une foi immense dans la science et le progrès technique, considérés comme les moteurs de l'amélioration de la société. L'électricité, en particulier, fascine et apparaît comme l'énergie de l'avenir. Le Nautilus, merveille de technologie entièrement mue par l'électricité, est un symbole de cette croyance dans le progrès. Cependant, Verne montre aussi les ambiguïtés de ce progrès : la science peut aussi créer de terribles armes de destruction.\n\n**L'époque des grandes explorations** : Le 19ème siècle est l'âge d'or des grandes explorations. Les explorateurs se lancent à la conquête des dernières régions inconnues de la planète (l'intérieur de l'Afrique, les régions polaires...). Le voyage du Nautilus s'inscrit dans cette lignée, explorant le plus grand des territoires inconnus : les fonds marins.",
+      "concepts": ["Printemps des peuples", "Positivisme", "Saint-Simonisme", "Révolution industrielle", "Grandes explorations", "Culte de la science"],
+      "questions": [
+        "En quoi le Capitaine Nemo est-il un homme de son temps ?",
+        "Quel est le rapport du roman à la science et au progrès technique ?",
+        "Comment le roman s'inscrit-il dans l'esprit des grandes explorations du 19ème siècle ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-7",
       "fiche_numero": 7,
-      "titre": "Fiche 7 : Présentation de 'Vingt mille lieues sous les mers'",
-      "groupe": "Vingt Mille Lieues sous les mers",
-      "contenu": "Publié entre 1869 et 1870, 'Vingt mille lieues sous les mers' est l'un des romans les plus connus des 'Voyages extraordinaires'. Le titre évoque à la fois la précision scientifique et l'immensité d'un voyage au cœur d'un monde inconnu. C'est une œuvre qui mélange les genres : c'est un roman d'aventures, un récit de voyage, un livre de vulgarisation scientifique, mais aussi une œuvre très marquée par le romantisme. Le personnage du Capitaine Nemo, mystérieux, révolté, génial et tourmenté, est un parfait héros romantique. La nature y est décrite comme sublime et grandiose, à la fois merveilleuse et terrifiante."
+      "title": "Présentation de 'Vingt mille lieues sous les mers'",
+      "group": "Vingt Mille Lieues sous les mers",
+      "author": "Jules Verne",
+      "summary": "Ce roman emblématique des 'Voyages extraordinaires' est un chef-d'œuvre du mélange des genres. Il combine roman d'aventures, récit d'exploration et encyclopédie scientifique. Fortement imprégné par le romantisme, il met en scène un héros révolté et sublime, le Capitaine Nemo, et une nature grandiose et fascinante, source d'émerveillement et de terreur.",
+      "content": "Publié en feuilleton entre 1869 et 1870, 'Vingt Mille Lieues sous les mers' est l'un des romans les plus célèbres et les plus populaires de Jules Verne. \n\n**Un titre programmatique** : Le titre, avec son chiffre précis, annonce la double nature du roman : une aventure mesurée, quantifiée, qui se veut réaliste et scientifique, mais aussi un voyage dans une immensité qui dépasse l'imagination.\n\n**À contre-courant du réalisme : l'imprégnation romantique** : Alors que le réalisme puis le naturalisme dominent la scène littéraire française, Jules Verne puise son inspiration dans le romantisme, notamment chez Victor Hugo, à qui il rend un hommage direct dans le roman. Le style est marqué par l'enthousiasme, les élans lyriques et une ponctuation expressive. La nature est décrite comme un être vivant, une force sublime, à la fois maternelle et destructrice. Le Capitaine Nemo est l'archétype du héros romantique : un génie solitaire, révolté contre la société, habité par une haine 'monstrueuse ou sublime'.\n\n**Un genre multiple** : Le livre est à la croisée des genres : c'est un **récit d'explorations** d'un monde encore inconnu, un **roman d'aventures** plein de péripéties (combats contre des monstres, échouage dans les glaces...), une **véritable odyssée** initiatique, et bien sûr un **roman scientifique** qui se veut une encyclopédie du monde marin.",
+      "concepts": ["Romantisme", "Héros romantique", "Nature sublime", "Récit d'exploration", "Roman d'aventures", "Odyssée", "Roman scientifique"],
+      "questions": [
+        "En quoi le Capitaine Nemo est-il un 'héros romantique' ?",
+        "Comment la nature est-elle représentée dans le roman ?",
+        "Quels sont les différents genres littéraires qui se mêlent dans cette œuvre ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-8",
       "fiche_numero": 8,
-      "titre": "Fiche 8 : Structure de 'Vingt mille lieues sous les mers'",
-      "groupe": "Vingt Mille Lieues sous les mers",
-      "contenu": "Le roman est en deux parties. La première partie commence avec le mystère d'un 'monstre marin' qui attaque les navires. Le professeur Aronnax, son domestique Conseil et le harponneur Ned Land se joignent à une expédition pour le chasser. Passés par-dessus bord, ils découvrent que le monstre est en réalité un sous-marin révolutionnaire, le Nautilus, commandé par l'énigmatique Capitaine Nemo. Devenus ses prisonniers, ils commencent un incroyable voyage à la découverte des merveilles sous-marines. La deuxième partie poursuit ce périple à travers tous les océans du monde. Ils découvrent l'Atlantide, combattent des calamars géants et atteignent le pôle Sud. La personnalité sombre et vengeresse de Nemo se dévoile peu à peu. Le roman s'achève sur l'évasion des trois compagnons alors que le Nautilus est pris dans un tourbillon géant, le Maelström, laissant le destin de Nemo en suspens."
+      "title": "Structure de 'Vingt mille lieues sous les mers'",
+      "group": "Vingt Mille Lieues sous les mers",
+      "author": "Jules Verne",
+      "summary": "Le roman se divise en deux parties qui racontent le long périple du professeur Aronnax, de son domestique Conseil et du harponneur Ned Land à bord du Nautilus. La première partie est consacrée à la découverte du sous-marin et des merveilles du Pacifique. La seconde partie, plus sombre, explore les autres océans et dévoile la face vengeresse du Capitaine Nemo, jusqu'à l'évasion finale des trois héros.",
+      "content": "Le roman est divisé en deux parties, qui suivent un parcours géographique et dramatique.\n\n**Première partie**\nLe récit débute avec la traque d'un mystérieux 'monstre marin'. Le professeur Aronnax, son domestique Conseil et le harponneur Ned Land embarquent sur la frégate 'Abraham Lincoln'. Après une collision, ils sont projetés à la mer et se retrouvent sur le dos du 'monstre', qui s'avère être un sous-marin, le Nautilus. Faits prisonniers par son commandant, le Capitaine Nemo, ils sont contraints de le suivre dans son voyage. Cette première partie est celle de l'émerveillement : ils découvrent l'intérieur luxueux et ingénieux du Nautilus et explorent les fonds du Pacifique, visitent une forêt sous-marine, assistent à un enterrement dans un cimetière de corail et s'échouent en Papouasie.\n\n**Deuxième partie**\nLe voyage se poursuit dans l'Océan Indien, la Mer Rouge, la Méditerranée et l'Atlantique. Le ton devient plus sombre. Aronnax découvre que la fortune de Nemo provient du trésor d'un galion espagnol coulé. Ils explorent les ruines de l'Atlantide, atteignent le pôle Sud, et se retrouvent prisonniers des glaces de l'Antarctique. Un combat terrible contre des calamars géants coûte la vie à un membre de l'équipage. La haine de Nemo envers une mystérieuse 'nation maudite' éclate lorsqu'il coule délibérément un de ses navires de guerre. Horrifiés, Aronnax, Conseil et Ned Land décident de s'enfuir. Ils s'échappent à bord du canot du Nautilus alors que celui-ci est emporté par le Maelström, un gigantesque tourbillon au large de la Norvège. Ils s'en sortent miraculeusement, mais le sort du Nautilus et de Nemo reste un mystère.",
+      "concepts": ["Capture", "Exploration", "Émerveillement", "Vengeance", "Évasion", "Mystère"],
+      "questions": [
+        "Quelle est la progression dramatique entre la première et la seconde partie du roman ?",
+        "Quelles sont les grandes étapes du voyage du Nautilus ?",
+        "Comment la figure du Capitaine Nemo évolue-t-elle au cours du récit ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-9",
       "fiche_numero": 9,
-      "titre": "Fiche 9 : Marlen Haushofer (1920-1970)",
-      "groupe": "Le Mur invisible",
-      "contenu": "Marlen Haushofer est une écrivaine autrichienne. Son enfance passée au cœur de la nature, dans les Alpes autrichiennes, a profondément marqué son œuvre. Pendant une grande partie de sa vie, elle a mené une existence conventionnelle de femme au foyer, un rôle qu'elle ressentait comme un enfermement et qui l'a poussée à écrire en secret. Ses romans mettent souvent en scène des femmes solitaires, qui se sentent piégées par la société patriarcale et qui développent un lien très fort avec la nature. Son livre le plus célèbre, 'Le Mur invisible', est l'histoire d'une femme qui se retrouve soudainement coupée du reste du monde par un mur transparent, avec pour seule compagnie des animaux."
+      "title": "Marlen Haushofer (1920-1970)",
+      "group": "Le Mur invisible",
+      "author": "Marlen Haushofer",
+      "summary": "Cette fiche présente l'écrivaine autrichienne Marlen Haushofer. Marquée par une enfance en pleine nature et une vie de femme au foyer qu'elle ressent comme une contrainte, elle a développé une œuvre singulière. Ses romans, dont le plus célèbre est 'Le Mur invisible', explorent les thèmes de la solitude, de l'enfermement social et du lien profond qui unit ses héroïnes au monde naturel et animal.",
+      "content": "Marlen Haushofer est une écrivaine autrichienne de l'après-guerre, dont l'œuvre a été redécouverte tardivement.\n\n**Une enfance au cœur de la nature** : Elle grandit dans un petit village des Alpes autrichiennes. Son père est garde-forestier. Cette enfance solitaire, en immersion dans la nature, irriguera toute son œuvre littéraire.\n\n**Les pièges de la vie de famille** : Après des études inachevées, elle se marie et a deux enfants. Elle mène une vie de femme au foyer, typique de la bourgeoisie autrichienne de l'époque. Elle vit cette situation comme un enfermement, un 'lourd fardeau' qui l'empêche de s'épanouir. C'est dans les marges de cette vie domestique, la nuit ou à l'aube, qu'elle écrit en secret. Ses héroïnes lui ressemblent : ce sont souvent des femmes au foyer, solitaires, dont la révolte est intérieure et silencieuse.\n\n**La reconnaissance littéraire** : Malgré cette vie discrète, Haushofer est reconnue dans le milieu littéraire viennois. Elle publie plusieurs romans et nouvelles et reçoit des prix littéraires. Son œuvre la plus célèbre, 'Die Wand' ('Le Mur'), publiée en 1963, passera relativement inaperçue avant d'être redécouverte dans les années 1980 et de devenir un classique de la littérature écoféministe. Elle meurt prématurément d'un cancer en 1970.",
+      "concepts": ["Condition féminine", "Patriarcat", "Nature", "Solitude", "Écriture", "Écoféminisme"],
+      "questions": [
+        "Comment la biographie de Marlen Haushofer éclaire-t-elle son œuvre ?",
+        "Quel rôle joue la nature dans ses romans ?",
+        "Pourquoi 'Le Mur invisible' a-t-il été redécouvert dans les années 1980 ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-10",
       "fiche_numero": 10,
-      "titre": "Fiche 10 : Le contexte du 'Mur invisible'",
-      "groupe": "Le Mur invisible",
-      "contenu": "Publié en 1963, en pleine Guerre Froide, le roman peut être lu comme une allégorie de l'époque. Le 'mur invisible' symbolise le Rideau de Fer et le Mur de Berlin qui divisaient alors l'Europe et le monde. L'histoire de l'Autriche, annexée par l'Allemagne nazie puis occupée après la guerre, renforce ce sentiment d'enfermement. Le livre évoque aussi la peur d'une guerre nucléaire soudaine et totale. Plus tard, dans les années 80, le roman a été redécouvert par le mouvement 'écoféministe', qui y a vu le récit d'une femme s'échappant d'une civilisation masculine destructrice pour réapprendre à vivre en harmonie avec la nature."
+      "title": "Le contexte du 'Mur invisible'",
+      "group": "Le Mur invisible",
+      "author": "Marlen Haushofer",
+      "summary": "Publié en pleine Guerre Froide, le roman peut être interprété comme une allégorie de son temps. Le 'mur' évoque le Mur de Berlin et le Rideau de Fer, et le récit est hanté par la peur d'une catastrophe nucléaire. Plus tard, le livre a connu une nouvelle lecture à travers le prisme de l'écoféminisme, qui y a vu le symbole d'une femme s'échappant d'un monde masculin destructeur pour retrouver un lien harmonieux avec la nature.",
+      "content": "Le roman de Marlen Haushofer, bien que se présentant comme un récit intemporel, est profondément ancré dans le contexte des années 1960.\n\n**Un 'mur'…** : Le livre est publié en 1963, deux ans après la construction du Mur de Berlin. Dans le contexte de la Guerre Froide, ce 'mur invisible' qui sépare brutalement la narratrice du reste du monde ne peut quévoquer le Rideau de Fer qui divise l'Europe. L'Autriche, pays de l'auteure, est alors un état neutre, mais situé juste à la frontière de ce 'mur' idéologique. Le roman retranscrit ce sentiment d'enfermement et de menace diffuse.\n\n**… Et une 'arme nouvelle'** : La Guerre Froide est aussi l'époque de la course aux armements et de la peur de l'apocalypse nucléaire. La catastrophe mystérieuse qui anéantit le monde dans le roman, laissant les corps pétrifiés mais la nature intacte, fait penser à une 'arme nouvelle', peut-être une bombe à neutrons. Le chalet où se trouve la narratrice, avec ses réserves, ressemble à un abri antiatomique. Le récit est imprégné de cet imaginaire de la fin du monde.\n\n**Un roman féminin devenu féministe** : À sa sortie, le livre est classé dans la littérature 'féminine'. C'est dans les années 1970-80, avec l'émergence du mouvement 'écoféministe', que le roman trouve un nouveau public. L'écoféminisme établit un lien entre la domination des femmes par la société patriarcale et la domination de la nature par l'homme. Le roman de Haushofer est alors lu comme l'histoire d'une femme qui, libérée de ce monde masculin et destructeur, réapprend à vivre en harmonie avec la nature et les animaux.",
+      "concepts": ["Guerre Froide", "Mur de Berlin", "Rideau de Fer", "Peur nucléaire", "Écoféminisme", "Patriarcat"],
+      "questions": [
+        "En quoi le 'mur invisible' peut-il être vu comme une allégorie de la Guerre Froide ?",
+        "Comment la peur de la guerre nucléaire transparaît-elle dans le roman ?",
+        "Qu'est-ce que l'écoféminisme et pourquoi ce mouvement s'est-il approprié le roman de Haushofer ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-11",
       "fiche_numero": 11,
-      "titre": "Fiche 11 : Présentation du 'Mur invisible'",
-      "groupe": "Le Mur invisible",
-      "contenu": "Le titre du roman est un paradoxe : un mur qui est un obstacle physique bien réel, mais qu'on ne peut pas voir. Il symbolise une nouvelle réalité, absurde et inexplicable. Le récit est écrit à la première personne, comme le journal intime de la protagoniste, dont on ne connaîtra jamais le nom. C'est une sorte de 'Robinsonnade' (une histoire à la Robinson Crusoé), mais à l'inverse du héros classique qui cherche à dominer la nature, l'héroïne du 'Mur' apprend à vivre avec elle, à s'y adapter et à tisser des liens profonds avec les animaux. C'est aussi un roman post-apocalyptique, mais très intimiste : la catastrophe qui a anéanti le reste du monde reste mystérieuse, et le livre se concentre sur le quotidien de la survie et la transformation intérieure de la narratrice."
+      "title": "Présentation du 'Mur invisible'",
+      "group": "Le Mur invisible",
+      "author": "Marlen Haushofer",
+      "summary": "Cette fiche présente l'intrigue et la forme du roman. Le titre paradoxal annonce une expérience de l'absurde. Le récit, à la première personne, prend la forme d'un journal de survie. Il s'agit d'une 'robinsonnade' moderne et d'un roman post-apocalyptique intimiste, qui se concentre moins sur la catastrophe que sur la transformation intérieure de l'héroïne anonyme et son apprentissage d'une nouvelle vie en symbiose avec la nature.",
+      "content": "Ce roman singulier se distingue par son titre, sa forme narrative et les genres auxquels il se rattache.\n\n**Le titre** : Le titre, 'Le Mur invisible', est un oxymore. Il désigne une réalité paradoxale : un obstacle physique absolu, qui blesse et qui isole, mais qui est transparent. Ce mur symbolise l'absurdité de la condition de l'héroïne et le caractère à la fois concret et impalpable de ce qui la sépare de son ancienne vie. Au fil du récit, ce mur angoissant devient une frontière protectrice, la condition même de sa nouvelle liberté.\n\n**Une forme autobiographique originale** : Le roman est écrit à la première personne par une narratrice dont on ne connaîtra jamais le nom, car pour elle, 'puisqu’il n’y a plus personne pour prononcer mon nom, il n’existe plus'. Le texte se présente comme un journal, un récit rétrospectif écrit deux ans après la catastrophe. C'est le monologue d'une survivante qui écrit pour ne pas devenir folle.\n\n**Une robinsonnade revisitée** : Le roman reprend le schéma de la 'robinsonnade' (une personne seule survivant dans un milieu naturel). Mais à l'inverse de Robinson Crusoé, qui cherche à recréer la civilisation et à dominer la nature, l'héroïne de Haushofer se dépouille de son ancienne identité, s'adapte à la nature et développe une relation fusionnelle avec elle et les animaux qui l'entourent (un chien, une vache, des chats).\n\n**Une fiction post-apocalyptique ?** : C'est aussi un roman post-apocalyptique, mais très original. La catastrophe qui a anéanti l'humanité reste mystérieuse et hors-champ. Le roman ne se concentre pas sur l'action ou le spectaculaire, mais sur l'intime : le quotidien de la survie, les gestes répétés, les sensations, et surtout la lente transformation psychologique de la narratrice.",
+      "concepts": ["Absurde", "Journal intime", "Robinsonnade", "Post-apocalyptique", "Survie", "Identité", "Symbiose avec la nature"],
+      "questions": [
+        "Que symbolise le 'mur invisible' ?",
+        "En quoi ce roman est-il une 'robinsonnade' originale ?",
+        "Pourquoi peut-on qualifier ce roman de 'post-apocalyptique intimiste' ?"
+      ],
+      "type": "book"
     },
     {
+      "id": "fiche-12",
       "fiche_numero": 12,
-      "titre": "Fiche 12 : L'expérience par l'observation de la nature",
-      "groupe": "Thèmes transversaux",
-      "contenu": "L'observation est la porte d'entrée principale pour expérimenter la nature dans les trois œuvres. Pour Canguilhem, il s'agit de poser un regard neuf sur le vivant, au-delà des théories établies. Dans le roman de Verne, les hublots du Nautilus sont une fenêtre sur un monde à observer, mêlant curiosité scientifique et émerveillement. Pour Haushofer, l'héroïne redécouvre le monde qui l'entoure par une observation intense de tous les instants, essentielle à sa survie. La fiche fait la distinction entre l'observation active et méthodique (analyser) et la contemplation plus passive et émotionnelle (ressentir)."
+      "title": "L'expérience par l'observation de la nature",
+      "group": "Thèmes transversaux",
+      "summary": "Cette fiche analyse l'importance du regard et de l'observation comme premier mode d'expérience de la nature dans les trois œuvres. Elle distingue l'observation scientifique (analyser, classer) de la contemplation esthétique (ressentir, s'émerveiller), deux postures qui traversent les textes.",
+      "content": "Dans les trois œuvres, le premier contact avec la nature, le premier mode d'expérience, passe par le regard, par l'observation.\n\n**Canguilhem** invite à porter un regard nouveau, critique, sur le vivant, un regard qui dépasse les théories toutes faites pour redécouvrir la complexité de la vie.\n\n**Verne** fait de l'observation le moteur de l'aventure. Les grands hublots du salon du Nautilus sont une scène de théâtre, une fenêtre ouverte sur les merveilles (et les dangers) d'un monde inconnu. Le regard d'Aronnax est double : c'est celui du scientifique qui veut identifier, classer, comprendre, mais aussi celui de l'esthète qui contemple, fasciné et émerveillé, la beauté sublime des fonds marins.\n\n**Haushofer** place également l'observation au centre de son récit. C'est d'abord par la vue (aidée des jumelles) que la narratrice prend la mesure de sa prison, mais aussi de son nouveau royaume. Son observation est d'abord une nécessité vitale : elle doit apprendre à lire les signes de la nature pour survivre. Mais elle devient progressivement une forme de contemplation qui lui révèle la beauté du monde et la mène à une expérience sensorielle et fusionnelle avec ce qui l'entoure.\n\nL'expérience de la nature oscille donc entre deux pôles : l'**observation active et méthodique**, qui cherche à analyser, et la **contemplation passive et méditative**, qui est de l'ordre du ressenti et de l'admiration.",
+      "concepts": ["Observation", "Contemplation", "Regard scientifique", "Regard esthétique", "Expérience sensorielle"],
+      "questions": [
+        "Quelle est la différence entre observer et contempler la nature ?",
+        "Quel rôle jouent les instruments d'optique (hublots, jumelles) dans l'expérience de la nature ?",
+        "Comment l'observation de la nature mène-t-elle à la connaissance dans les trois œuvres ?"
+      ],
+      "type": "theme"
     },
     {
+      "id": "fiche-13",
       "fiche_numero": 13,
-      "titre": "Fiche 13 : Éthique de l'expérience de la nature",
-      "groupe": "Thèmes transversaux",
-      "contenu": "Ces œuvres nous interrogent sur notre rapport moral à la nature. Elles opposent la sagesse de la nature à la folie destructrice des hommes. Verne, à travers Nemo, critique la chasse pour le plaisir et la surexploitation des ressources marines. Haushofer décrit le monde d'avant 'le mur' comme violent et patriarcal ; c'est en se retrouvant seule dans la nature que son héroïne apprend une nouvelle éthique basée sur le soin et la responsabilité envers les animaux. Canguilhem, lui, nous invite à une forme d'humilité scientifique : il faut respecter la complexité de la vie plutôt que de vouloir la dominer par des théories rigides."
+      "title": "Éthique de l'expérience de la nature",
+      "group": "Thèmes transversaux",
+      "summary": "Cette fiche compare la dimension éthique du rapport à la nature dans les trois œuvres. Elles opposent la sagesse et la résilience de la nature à la 'folie' destructrice de l'homme. Les textes invitent à une éthique du respect, de la responsabilité et de l'humilité face au vivant.",
+      "content": "Les trois œuvres ne se contentent pas de décrire des expériences de la nature, elles posent la question de notre rapport moral, éthique, au monde vivant.\n\nUn thème commun est l'opposition entre la **sagesse de la nature** et la **folie humaine**. La nature est une force créatrice, résiliente, tandis que l'homme, dans sa démesure, est souvent une force destructrice. \n\n**Verne**, à travers le personnage de Nemo, développe une conscience écologique avant l'heure. Nemo utilise les ressources de la mer, mais avec respect. Il critique violemment la chasse pour le simple plaisir de tuer ('tuer pour tuer') et la pêche industrielle qui menace d'anéantir des espèces entières. Il se pose en protecteur des créatures marines.\n\n**Haushofer** développe une éthique du 'care' (le soin, la sollicitude). Le monde 'd'avant' est un monde de violence patriarcale où les animaux sont de simples objets. Enfermée derrière le mur, la narratrice apprend à nouer une relation de responsabilité et d'interdépendance avec les animaux qui deviennent sa 'famille'. Aimer et prendre soin d'un être devient le principe moral fondamental, opposé à la pulsion de mort masculine.\n\n**Canguilhem** propose une éthique de l'humilité. Le scientifique ne doit pas chercher à dominer la nature en lui imposant ses cadres théoriques rigides. Il doit au contraire respecter la complexité, l'individualité et la 'fantaisie' du vivant. Il critique l'anthropomorphisme (projeter des cadres humains sur l'animal) et invite à changer de point de vue pour comprendre la logique propre à chaque être vivant.\n\nCes trois œuvres nous invitent donc à repenser notre place dans le monde et à développer une attitude de **respect**, de **responsabilité** et de **protection** envers la nature.",
+      "concepts": ["Éthique", "Respect du vivant", "Responsabilité", "Écologie", "Cause animale", "Humilité"],
+      "questions": [
+        "Comment la critique de la chasse est-elle présente chez Verne et Haushofer ?",
+        "Qu'est-ce qu'une éthique du 'care' et comment se manifeste-t-elle dans 'Le Mur invisible' ?",
+        "Pourquoi Canguilhem prône-t-il une forme d'humilité dans l'étude du vivant ?"
+      ],
+      "type": "theme"
     },
     {
+      "id": "fiche-14",
       "fiche_numero": 14,
-      "titre": "Fiche 14 : Écrire l'expérience de la nature",
-      "groupe": "Thèmes transversaux",
-      "contenu": "L'expérience de la nature n'est pas seulement vécue, elle est aussi racontée. Chez Verne, le professeur Aronnax tient un journal de bord très précis pour témoigner de son voyage extraordinaire de la manière la plus fidèle possible. Chez Haushofer, la narratrice écrit pour donner un sens à sa situation incroyable et pour ne pas sombrer dans la folie. Pour Canguilhem, l'écriture n'est pas un récit personnel mais une argumentation philosophique pour construire une nouvelle compréhension de la vie. L'écriture sert donc à transmettre un savoir, à témoigner d'une expérience hors du commun et à créer du sens."
+      "title": "Écrire l'expérience (ou les expériences) de la nature",
+      "group": "Thèmes transversaux",
+      "summary": "Pourquoi et comment écrire l'expérience de la nature ? Cette fiche analyse les différentes formes et fonctions de l'écriture dans les œuvres. L'écriture permet de transmettre un savoir (Verne), de donner un sens à l'absurde et de ne pas sombrer dans la folie (Haushofer), ou de construire une argumentation philosophique (Canguilhem). Elle se heurte aussi aux limites du langage pour dire la majesté ou l'intensité de l'expérience vécue.",
+      "content": "L'expérience de la nature ne se limite pas à être vécue ; elle est aussi mise en mots, écrite, racontée. Mais pourquoi et comment ?\n\n**Qui écrit et pour qui ?**\n- Chez **Verne**, plusieurs personnages écrivent. Le professeur Aronnax tient un journal de bord scientifique et rétrospectif pour un lectorat universel, afin de témoigner de son 'invraisemblable expédition'. Nemo écrit ses mémoires pour les confier à l'océan. Ned Land, lui, ne fait que raconter oralement ses exploits, tel un héros homérique.\n- Chez **Haushofer**, la narratrice anonyme écrit un journal pour elle-même. C'est une 'ultime tentative' pour donner un sens à sa situation et pour 'ne pas perdre la raison'. L'écriture est un acte de survie psychique.\n- Chez **Canguilhem**, l'écriture n'est pas un récit personnel. C'est une argumentation philosophique destinée à un lecteur (spécialiste ou non) pour le convaincre et réfuter les thèses adverses (celles du mécanisme notamment).\n\n**Pourquoi écrire ?**\n- **Pour transmettre un savoir** : C'est la visée encyclopédique de Verne. Le roman est une leçon de choses sur le monde marin.\n- **Pour laisser une trace et donner un sens** : C'est l'enjeu existentiel chez Haushofer. Face à l'absurde, l'écriture permet de reconstruire un sens. C'est aussi, chez Verne, la quête pour résoudre l'énigme qu'est le Capitaine Nemo.\n\n**Comment écrire ?**\nL'écriture se heurte à un obstacle majeur : **les limites du langage**. Comment dire la beauté sublime d'un paysage sous-marin, l'intensité d'une émotion, l'horreur d'une scène ? Aronnax se plaint souvent de l'impuissance des mots ('Quelle plume le pourrait décrire !'). Les auteurs ont alors recours à des stratégies : le lyrisme et les comparaisons mythologiques ou littéraires chez Verne, une écriture sensorielle et clinique chez Haushofer, ou des exemples concrets pour illustrer une pensée abstraite chez Canguilhem.",
+      "concepts": ["Écriture de soi", "Journal de bord", "Témoignage", "Transmission du savoir", "Quête de sens", "Limites du langage", "Lyrisme"],
+      "questions": [
+        "Quelles sont les différentes fonctions de l'écriture dans les trois œuvres ?",
+        "À quel(s) lecteur(s) les narrateurs s'adressent-ils ?",
+        "Comment les auteurs surmontent-ils les difficultés à décrire l'expérience de la nature ?"
+      ],
+      "type": "theme"
     },
     {
+      "id": "fiche-15",
       "fiche_numero": 15,
-      "titre": "Fiche 15 : Renaître avec la nature",
-      "groupe": "Thèmes transversaux",
-      "contenu": "Pour renaître, il faut d'abord rompre avec le passé. Les personnages laissent derrière eux un ancien monde, avec ses violences et ses normes sociales contraignantes. Pour Nemo ou l'héroïne du 'Mur', cette rupture est radicale : c'est une rupture avec l'humanité entière. Ce détachement permet une profonde transformation, une métamorphose. Le corps lui-même s'adapte, devient plus fort, plus en phase avec son environnement. Les personnages découvrent des facettes cachées d'eux-mêmes, abandonnent leurs anciennes identités pour renaître à une nouvelle existence, plus authentique et en harmonie avec le monde naturel."
+      "title": "Renaître avec la nature",
+      "group": "Thèmes transversaux",
+      "summary": "Faire l'expérience de la nature, c'est renaître. Cette fiche montre que cette renaissance passe par une rupture avec le monde ancien, ses violences et ses normes sociales. Cette rupture permet une métamorphose, une transformation physique et psychologique profonde, où les personnages se découvrent et se réinventent au contact du vivant.",
+      "content": "L'expérience de la nature est présentée dans les trois œuvres comme une véritable renaissance, une nouvelle naissance. Ce processus passe par plusieurs étapes.\n\n**1. Rompre avec le passé**\nPour renaître, il faut d'abord mourir à son ancienne vie. Il faut rompre avec un monde perçu comme violent et oppressant. \n- La **violence des rapports humains** : C'est la société patriarcale et le mariage vus comme un 'fardeau' chez Haushofer ; la misanthropie du Capitaine Nemo qui a rompu avec 'la société tout entière' ; la critique par Canguilhem de l'exploitation de l'homme par l'homme.\n- La **violence des rapports homme-nature** : C'est l'exploitation destructrice de la nature par l'homme, que les trois auteurs dénoncent.\n- Les **normes sociales** : Il faut se libérer des conventions, des jugements. C'est la narratrice du 'Mur' qui abandonne son rôle de femme mondaine ; c'est Nemo qui vit hors de toutes les lois humaines ; c'est Canguilhem qui remet en cause les définitions établies du normal et du monstrueux.\n\n**2. Métamorphoses du vivant**\nCette rupture permet une transformation profonde, une métamorphose.\n- **Transformation physique** : Le corps s'adapte, se fortifie, se transforme. La narratrice du 'Mur' maigrit, se muscle, son corps 's'adapte à la forêt'. Elle devient mi-humaine, mi-animale, mi-végétale.\n- **Transformation psychologique** : Les personnages se découvrent des capacités insoupçonnées, ils se révèlent à eux-mêmes. La narratrice du 'Mur' découvre sa force et sa résilience. Aronnax découvre son courage. Nemo se régénère au contact de la mer. Canguilhem montre que la vie elle-même est une perpétuelle métamorphose.\n\nCette expérience est donc un parcours initiatique qui mène de la rupture à la renaissance, de l'aliénation à la découverte d'une identité plus authentique et plus en harmonie avec le monde.",
+      "concepts": ["Renaissance", "Rupture", "Métamorphose", "Transformation", "Identité", "Adaptation", "Harmonie"],
+      "questions": [
+        "Avec quoi les personnages doivent-ils rompre pour pouvoir 'renaître' ?",
+        "Quelles formes de métamorphoses les personnages subissent-ils ?",
+        "En quoi l'expérience de la nature est-elle une expérience de découverte de soi ?"
+      ],
+      "type": "theme"
     },
     {
+      "id": "fiche-16",
       "fiche_numero": 16,
-      "titre": "Fiche 16 : Ordre et désordre",
-      "groupe": "Thèmes transversaux",
-      "contenu": "La nature apparaît souvent comme un 'désordre' immense et complexe, qui dépasse les tentatives humaines de la maîtriser. Au début, les personnages réagissent en essayant d'imposer un ordre : Conseil classe les poissons, Aronnax mesure tout, la narratrice du 'Mur' s'impose un emploi du temps strict. Mais la véritable expérience de la nature consiste à accepter sa complexité, son 'désordre' apparent. Il faut passer d'une vision rigide et analytique à une perception plus fluide et intuitive. Le monstre, l'imprévu, l'hybride sont des formes de 'désordre' qui défient nos catégories mais qui font partie de la force créatrice de la vie."
+      "title": "Ordre et désordre",
+      "group": "Thèmes transversaux",
+      "summary": "Cette fiche explore la tension entre l'ordre et le désordre dans l'expérience de la nature. Confronté à une nature qui lui apparaît comme un 'désordre' infini, l'homme tente d'imposer un ordre (classer, mesurer, délimiter). Mais la véritable expérience consiste à accepter ce désordre créateur, à s'immerger dans la complexité du vivant, à faire l'expérience de la monstruosité et de l'hybride.",
+      "content": "L'expérience de la nature est une confrontation permanente entre l'ordre et le désordre.\n\n**La nature comme désordre** : La nature apparaît d'abord à l'homme comme un Tout immense, indifférencié, un chaos qui le dépasse et dans lequel il perd ses repères. C'est 'l'immensité des flots déserts' chez Verne, ou l'angoisse du crépuscule où tout se confond chez Haushofer. Pour Canguilhem, le vivant est un 'tout' complexe qui résiste à l'analyse.\n\n**La tentation de l'ordre** : Face à ce 'désordre', la première réaction de l'homme est d'essayer d'imposer un ordre. C'est une manière de se rassurer et de maîtriser ce qui lui échappe. Les personnages se lancent dans des démarches de classification (Conseil dans le Nautilus), de mesure et de délimitation (la narratrice qui clôture son champ). Les collections du Capitaine Nemo, qui enferment la nature dans des vitrines, sont l'exemple même de cette tentative de mise en ordre du monde.\n\n**Accepter le désordre créateur** : Mais les œuvres montrent que la véritable expérience de la nature consiste à dépasser cette volonté d'ordre. Il faut apprendre à 'se fondre dans la grande communauté' (Haushofer), à s'immerger dans le vivant sans chercher à le quadriller ('Mobilis in mobili' est la devise de Nemo). Il faut accepter que la vie soit aussi 'désordre', c'est-à-dire créativité, imprévu, 'monstruosité'. Le monstre, l'hybride, qui brouillent les catégories, ne sont pas des erreurs, mais des manifestations de la puissance créatrice de la vie. L'expérience de la nature est donc un apprentissage : passer de la peur du désordre à la fascination pour sa vitalité.",
+      "concepts": ["Ordre", "Désordre", "Chaos", "Classification", "Limites", "Monstruosité", "Hybride", "Complexité"],
+      "questions": [
+        "Comment les personnages tentent-ils d'imposer de l'ordre face à la nature ?",
+        "Pourquoi cette tentative d'imposer un ordre est-elle vouée à l'échec ?",
+        "Que signifie 'accepter le désordre' de la nature ?"
+      ],
+      "type": "theme"
     },
     {
+      "id": "fiche-17",
       "fiche_numero": 17,
-      "titre": "Fiche 17 : Violence et résilience",
-      "groupe": "Thèmes transversaux",
-      "contenu": "La relation entre l'homme et la nature est souvent marquée par la violence. L'homme, avec sa technologie, inflige de terribles dégâts au monde naturel (les chasses chez Verne, la 'nouvelle arme' chez Haushofer). Mais la nature est elle-même violente, avec ses prédateurs et ses lois impitoyables. Le thème central est cependant la résilience. Malgré la violence, la vie continue. L'héroïne de Haushofer survit à un massacre et choisit de continuer à vivre ; la nature elle-même repousse sur les ruines de l'ancien monde. La résilience est cette capacité à encaisser les chocs et à continuer, une leçon que la nature nous enseigne."
+      "title": "Violence et résilience",
+      "group": "Thèmes transversaux",
+      "summary": "Cette fiche traite de la double violence présente dans les œuvres : celle de l'homme envers la nature, et celle inhérente à la nature elle-même (loi du plus fort, catastrophes). Face à cette violence, les textes explorent la notion de résilience : la capacité du vivant (la nature comme les personnages) à surmonter les traumatismes et à continuer, à se régénérer malgré tout.",
+      "content": "L'expérience de la nature est traversée par la violence, mais elle est aussi une leçon de résilience.\n\n**La violence**\nElle est double :\n- **La violence de l'homme envers la nature** : C'est un thème central. L'homme est présenté comme un prédateur, souvent destructeur. C'est Ned Land qui veut tout harponner, ce sont les 'crimes contre la nature' dénoncés par Nemo, c'est la 'nouvelle arme' qui anéantit la vie dans 'Le Mur invisible', c'est la vivisection critiquée par Canguilhem. Cette violence est souvent gratuite ('tuer pour tuer').\n- **La violence de la nature elle-même** : La nature n'est pas un monde pacifié. C'est un lieu de combat pour la survie, où règne la 'loi du plus fort' (les cachalots qui attaquent les baleines). Elle est aussi le théâtre de catastrophes terrifiantes (tempêtes, éruptions, orages...). La mort est omniprésente.\n\n**La résilience**\nFace à cette double violence, la grande leçon de la nature est la résilience. La résilience est la capacité à surmonter les chocs et les traumatismes, à continuer à vivre malgré tout. \n- **La résilience de la nature** : Après chaque catastrophe, chaque destruction, la vie reprend ses droits. Dans 'Le Mur invisible', après l'orage, la nature est encore plus belle ; l'herbe repousse sur les routes et les cadavres. La vie est une force qui ne s'arrête jamais.\n- **La résilience des personnages** : Confrontés à des situations extrêmes, les personnages développent une incroyable capacité de résilience. La narratrice du 'Mur' survit à la solitude et au massacre de ses animaux et conclut son récit par ces mots : 'Tout continue'. Aronnax survit au Maelström. Le Capitaine Nemo, malgré sa haine, est capable de 'renaître' au contact de la mer. Pour Canguilhem, 'vivre, c'est affronter des risques et en triompher'. La résilience est l'essence même de la vie.",
+      "concepts": ["Violence", "Destruction", "Prédation", "Résilience", "Survie", "Traumatisme", "Régénération"],
+      "questions": [
+        "Quelles sont les deux formes de violence présentes dans les œuvres ?",
+        "Comment se manifeste la résilience de la nature ?",
+        "En quoi les personnages principaux sont-ils des figures de résilience ?"
+      ],
+      "type": "theme"
     },
     {
+      "id": "fiche-18",
       "fiche_numero": 18,
-      "titre": "Fiche 18 : Méthode du résumé",
-      "groupe": "Méthodologie",
-      "contenu": "Cette fiche est un guide pratique pour l'exercice du résumé, typique des concours en France. Elle explique comment condenser un texte en conservant ses idées principales, sa structure et son ton. Les étapes clés sont : bien comprendre le texte, reformuler les idées avec ses propres mots, et organiser le résumé de façon logique. La fiche détaille aussi les règles spécifiques à différents concours (nombre de mots, mise en page, etc.). L'objectif est de produire un texte clair, concis et fidèle à l'original."
+      "title": "Méthode du résumé",
+      "group": "Méthodologie",
+      "summary": "Cette fiche est un guide pratique pour l'exercice du résumé de texte. Elle explique comment synthétiser un texte en respectant ses idées, sa structure et son ton, tout en utilisant ses propres mots. Les règles spécifiques à différents concours sont également détaillées.",
+      "content": "L'exercice du résumé (ou contraction de texte) consiste à reformuler un texte de manière concise et fidèle.\n\n**Les principes de base** :\n1.  **Compréhension** : Il faut avoir parfaitement compris le texte original : son thème, sa thèse (l'idée principale défendue par l'auteur), sa structure (l'enchaînement logique des arguments).\n2.  **Synthèse** : Il faut restituer l'essentiel, en laissant de côté les détails, les exemples non indispensables et les répétitions.\n3.  **Reformulation** : Il est interdit de recopier des passages du texte original. Il faut utiliser ses propres mots pour exprimer les idées de l'auteur.\n4.  **Fidélité** : Le résumé doit respecter l'ordre des idées du texte, son système d'énonciation (ne pas dire 'l'auteur pense que...') et sa tonalité (critique, élogieuse, etc.).\n5.  **Correction de la langue** : Le résumé doit être rédigé dans un français clair et correct.\n\n**Le travail préparatoire (au brouillon)** :\n- Lire attentivement le texte plusieurs fois.\n- Dégager l'idée générale et la structure (le plan) du texte, en repérant les connecteurs logiques.\n- Reformuler au brouillon chaque idée importante, partie par partie.\n\n**La rédaction** :\n- Rédiger le résumé en liant les idées reformulées avec des connecteurs logiques.\n- Compter les mots avec précision.\n- Respecter la contrainte de longueur (généralement +/- 10% du nombre de mots demandé).\n- Se relire attentivement pour corriger les fautes.",
+      "concepts": ["Résumé de texte", "Synthèse", "Reformulation", "Structure argumentative", "Connecteur logique", "Fidélité au texte"],
+      "questions": [
+        "Quels sont les cinq principes fondamentaux d'un bon résumé ?",
+        "Quelles sont les étapes du travail préparatoire au brouillon ?",
+        "Quels éléments du texte original doit-on conserver et lesquels doit-on écarter ?"
+      ],
+      "type": "methodology"
     },
     {
+      "id": "fiche-19",
       "fiche_numero": 19,
-      "titre": "Fiche 19 : Méthode de la dissertation",
-      "groupe": "Méthodologie",
-      "contenu": "Cette fiche explique comment aborder l'épreuve de la dissertation. Il ne s'agit pas de réciter des connaissances, mais de construire une argumentation structurée en réponse à une question précise (le sujet). La méthode consiste à analyser le sujet pour en dégager la question centrale (la problématique), puis à élaborer un plan logique, généralement en trois parties (thèse / antithèse / synthèse). L'argumentation doit s'appuyer sur des exemples précis tirés des trois œuvres au programme de l'année."
+      "title": "Méthode de la dissertation",
+      "group": "Méthodologie",
+      "summary": "Cette fiche méthodologique explique comment construire une dissertation. L'accent est mis sur l'importance de l'analyse du sujet pour formuler une problématique, et sur la construction d'un plan dialectique (thèse, antithèse, synthèse) qui s'appuie sur des exemples précis tirés des trois œuvres au programme.",
+      "content": "La dissertation est un exercice d'argumentation structurée en réponse à un sujet donné.\n\n**1. Analyser le sujet**\nC'est l'étape la plus importante. Il faut :\n- Définir chaque terme du sujet.\n- Repérer l'articulation logique entre les termes.\n- Reformuler le sujet pour s'assurer de l'avoir bien compris. Le but est de dégager la **thèse** implicite du sujet, c'est-à-dire l'idée principale qu'il propose.\n\n**2. Formuler la problématique**\nÀ partir de l'analyse, on formule la problématique : c'est la question centrale que pose le sujet, le problème qu'il soulève. Elle prend souvent la forme d'une question directe ('Dans quelle mesure peut-on affirmer que...?'). Elle guidera toute la dissertation.\n\n**3. Élaborer le plan**\nLe plan le plus courant est le **plan dialectique** en trois parties :\n- **Partie I (Thèse)** : On valide la thèse du sujet. On montre qu'elle est juste en s'appuyant sur des arguments et des exemples précis tirés des œuvres au programme.\n- **Partie II (Antithèse)** : On nuance ou on critique la thèse du sujet. On montre ses limites, les aspects qu'elle ne prend pas en compte, toujours en s'appuyant sur les œuvres.\n- **Partie III (Synthèse/Dépassement)** : On dépasse l'opposition entre la thèse et l'antithèse. On propose une nouvelle réponse, plus complexe et nuancée, à la problématique.\n\n**4. La rédaction**\n- **L'introduction** : Elle est cruciale. Elle doit comporter une amorce, la citation du sujet, son analyse, la problématique et l'annonce du plan.\n- **Le développement** : Chaque partie du plan est composée de 2 ou 3 paragraphes. Chaque paragraphe développe un argument, illustré par des exemples précis (citations, scènes analysées) d'au moins deux œuvres différentes. Les parties sont reliées par des transitions.\n- **La conclusion** : Elle fait le bilan de l'argumentation, répond clairement à la problématique, et peut se terminer par une ouverture.",
+      "concepts": ["Dissertation", "Analyse de sujet", "Problématique", "Plan dialectique", "Argumentation", "Exemple littéraire"],
+      "questions": [
+        "Quelles sont les quatre étapes d'une bonne introduction de dissertation ?",
+        "Quelle est la structure d'un plan dialectique ?",
+        "Comment doit être construit un paragraphe de développement ?"
+      ],
+      "type": "methodology"
     },
     {
+      "id": "fiche-20",
       "fiche_numero": 20,
-      "titre": "Fiche 20 : Sujet de dissertation",
-      "groupe": "Méthodologie",
-      "contenu": "Cette fiche présente un exemple complet de dissertation, appliquant la méthode de la fiche 19. Le sujet, une citation du scientifique Claude Bernard, traite de la relation de l'expérimentateur à la nature : il doit d'abord l'interroger activement, puis écouter passivement ses réponses et s'y soumettre. L'exemple de dissertation analyse cette idée, l'illustre avec des exemples des trois œuvres (partie 1), la nuance et la critique (partie 2), et enfin propose une vision plus complexe de cette relation, montrant que l'expérimentateur est lui-même transformé par l'expérience (partie 3)."
+      "title": "Sujet de dissertation",
+      "group": "Méthodologie",
+      "summary": "Cette fiche propose une application concrète de la méthode de la dissertation sur un sujet de Claude Bernard. Elle montre comment analyser le sujet, formuler une problématique, construire un plan détaillé en trois parties et rédiger une introduction complète, en s'appuyant sur les trois œuvres au programme.",
+      "content": "Cette fiche propose un exemple d'application de la méthode de la dissertation sur le sujet suivant, tiré de Claude Bernard : *« je dirai que l’expérimentateur pose des questions à la nature ; mais que, dès qu’elle parle, il doit se taire ; il doit constater ce qu’elle répond, l’écouter jusqu’au bout, et, dans tous les cas, se soumettre à ses décisions »*.\n\n**1. Analyse du sujet**\nLe sujet décrit une relation en deux temps entre l'expérimentateur et la nature. \n- **Temps 1 (Actif)** : L'expérimentateur est actif, il 'pose des questions'. C'est lui qui a l'initiative.\n- **Temps 2 (Passif)** : L'expérimentateur devient passif. Il 'doit se taire', 'constater', 'écouter' et 'se soumettre'. La nature, personnifiée ('elle parle', 'elle répond'), prend le dessus et dicte ses 'décisions'.\nLa thèse est donc celle d'une méthode expérimentale où la rigueur impose une soumission absolue de l'observateur aux faits qu'il a provoqués.\n\n**2. Problématique**\nLa soumission aux faits suffit-elle à garantir l’objectivité expérimentale, ou toute observation implique-t-elle une part d’interprétation ?\n\n**3. Plan détaillé**\n- **Partie I : La thèse - L'expérimentateur doit se soumettre à la souveraineté de la nature.**\n  1. L'expérimentateur interroge la nature pour la comprendre (Aronnax, Canguilhem).\n  2. Il doit ensuite l'écouter en silence (l'expérience du mur chez Haushofer).\n  3. Il doit accepter l'autorité des faits (la découverte de la vraie nature du Nautilus).\n- **Partie II : La nuance - Le langage de la nature est difficile à entendre sans l'interpréter.**\n  1. La nature ne 'parle' pas un langage humain clair.\n  2. L'écoute est toujours une forme d'interprétation (les préjugés d'Aronnax).\n  3. Expérimenter, n'est-ce pas chercher à 'provoquer', voire à 'maîtriser' la nature (Nemo) ?\n- **Partie III : Le dépassement - L'expérience de la nature est aussi une expérience de soi.**\n  1. L'expérimentateur ne se tait pas : il écrit et exprime son expérience.\n  2. Face à une nature qui résiste, il expérimente ses propres limites (humilité du scientifique).\n  3. Il découvre alors autant sa propre nature que celle du monde (la transformation de la narratrice du 'Mur').",
+      "concepts": ["Expérimentation", "Observation", "Interprétation", "Objectivité", "Subjectivité", "Rapport à la nature"],
+      "questions": [
+        "Quelle est la thèse défendue par Claude Bernard dans cette citation ?",
+        "Quelles sont les limites de cette thèse ?",
+        "En quoi l'expérience de la nature transforme-t-elle l'expérimentateur lui-même ?"
+      ],
+      "type": "methodology"
     },
     {
+      "id": "fiche-21",
       "fiche_numero": 21,
-      "titre": "Fiche 21 : Citations sur 'La Connaissance de la vie'",
-      "groupe": "La Connaissance de la vie",
-      "contenu": "Cette fiche regroupe des citations essentielles de l'œuvre de Canguilhem. Elles sont classées par grands thèmes pour faciliter leur utilisation : Expérience et expérimentation, Nature, Connaissance et science, Milieu (l'environnement), Inattendu et hasard, Monstre et monstruosité, Conflit et débat. Ces phrases clés permettent de saisir rapidement le cœur de la pensée de Canguilhem sur chaque sujet."
+      "title": "Citations sur 'La Connaissance de la vie'",
+      "group": "La Connaissance de la vie",
+      "author": "Georges Canguilhem",
+      "summary": "Cette fiche regroupe une sélection de citations clés de l'œuvre de Canguilhem, organisées par grands thèmes (expérience, nature, connaissance, milieu, monstre, etc.) pour une consultation rapide et efficace.",
+      "content": "Voici une sélection de citations essentielles de 'La Connaissance de la vie', classées par thèmes.",
+      "concepts": ["Expérience", "Nature", "Connaissance", "Milieu", "Monstre"],
+      "questions": ["Comment cette citation illustre-t-elle la différence entre le vivant et la machine ?"],
+      "detailedSections": [
+        {"title": "Expérience, expérimentation", "content": "« La vie est expérience, c’est-à-dire improvisation, utilisation des occurrences ; elle est tentative dans tous les sens. »"},
+        {"title": "Nature", "content": "« La nature se définit par des impossibilités autant que par des possibilités. »"},
+        {"title": "Connaissance, savoir, science", "content": "« Connaître, c’est analyser. », « On ne vit pas de savoir. », « La connaissance est donc une méthode générale pour la résolution directe ou indirecte des tensions entre l’homme et le milieu. »"},
+        {"title": "Milieu", "content": "« Le propre du vivant, c’est de se faire son milieu, de se composer son milieu. »"},
+        {"title": "Inattendu, hasard, absurde", "content": "« pour faire de la biologie, même avec l’aide de l’intelligence, nous avons parfois besoin de nous sentir bêtes ». "},
+        {"title": "Monstre, monstruosité, monstrueux", "content": "« Le monstre est dans le bocal de l’embryologiste où il sert à enseigner la norme. »"},
+        {"title": "Conflit, débat", "content": "« Vivre […] pour l’homme, ce n’est pas seulement végéter et se conserver, c’est affronter des risques et en triompher. »"}
+      ],
+      "type": "citations"
     },
     {
+      "id": "fiche-22",
       "fiche_numero": 22,
-      "titre": "Fiche 22 : Citations sur 'Vingt Mille Lieues sur les mers'",
-      "groupe": "Vingt Mille Lieues sous les mers",
-      "contenu": "Cette fiche rassemble des citations importantes du roman de Jules Verne. Elles sont organisées par thèmes : les merveilles et la majesté de la nature, la nature comme danger, l'expérience de la nature, la destruction de la nature, l'exploitation et la conquête, la relation entre nature et machine, le savoir, le mythe, et des citations sur les personnages et les actions clés (observer, classer, transgresser les limites)."
+      "title": "Citations sur 'Vingt Mille Lieues sur les mers'",
+      "group": "Vingt Mille Lieues sous les mers",
+      "author": "Jules Verne",
+      "summary": "Cette fiche propose une collection de citations extraites du roman de Jules Verne, classées par thèmes pour illustrer les différents aspects de l'œuvre : la majesté de la nature, ses dangers, l'expérience de l'exploration, la figure de Nemo, etc.",
+      "content": "Voici une sélection de citations marquantes de 'Vingt Mille Lieues sur les mers', classées par thèmes.",
+      "concepts": ["Nature", "Expérience", "Danger", "Science", "Humanité", "Nemo"],
+      "questions": ["Dans quel contexte le Capitaine Nemo prononce-t-il sa célèbre devise 'Mobilis in mobili' ?"],
+      "detailedSections": [
+        {"title": "Merveilles et majesté de la nature", "content": "« la mer n’est que le véhicule d’une surnaturelle et prodigieuse existence ; elle n’est que mouvement et amour ; c’est l’infini vivant, comme l’a dit un de vos poètes »"},
+        {"title": "La nature comme danger", "content": "« nous traversions cette partie de la Méditerranée si féconde en sinistres. De la côte algérienne aux rivages de la Provence, que de navires ont fait naufrage, que de bâtiments ont disparu ! »"},
+        {"title": "Expérience de la nature", "content": "« Au récit que je fais de cette excursion sous les eaux, je sens bien que je ne pourrai être vraisemblable ! Je suis l’historien des choses d’apparence impossibles qui sont pourtant réelles, incontestables. Je n’ai point rêvé. J’ai vu et senti ! »"},
+        {"title": "Détruire la nature", "content": "« Ici, ce [chasser la baleine], serait tuer pour tuer. Je sais bien que c’est un privilège réservé à l’homme, mais je n’admets pas ces passe-temps meurtriers. »"},
+        {"title": "Nature humaine mystérieuse de Némo", "content": "« Ah ! monsieur, vivez, vivez au sein des mers ! Là seulement est l’indépendance ! Là je ne reconnais pas de maîtres ! Là je suis libre ! »"},
+        {"title": "Redécouvrir et renaître", "content": "« et toujours le mouvement, toujours la vie ! La vie, plus intense que sur les continents, plus exubérante, plus infinie, s’épanouissant dans toutes les parties de cet océan, élément de mort pour l’homme, a-t-on dit, élément de vie pour des myriades d’animaux – et pour moi ! »"}
+      ],
+      "type": "citations"
     },
     {
+      "id": "fiche-23",
       "fiche_numero": 23,
-      "titre": "Fiche 23 : Citations sur 'Le Mur invisible'",
-      "groupe": "Le Mur invisible",
-      "contenu": "Cette fiche est une sélection de citations marquantes du roman de Marlen Haushofer. Les extraits sont regroupés par thèmes significatifs : la destruction de la nature, la puissance et la violence de la nature, les métamorphoses de la narratrice, la raison et la connaissance, le lien entre l'homme et l'animal, et la résilience de la nature. Ces citations illustrent le parcours de l'héroïne et les grandes idées philosophiques du livre."
+      "title": "Citations sur 'Le Mur invisible'",
+      "group": "Le Mur invisible",
+      "author": "Marlen Haushofer",
+      "summary": "Cette fiche rassemble des citations clés du roman de Marlen Haushofer. Organisées par thèmes (destruction, violence, métamorphose, raison, lien homme/animal, résilience), elles permettent de saisir la profondeur de la pensée et du style de l'auteure.",
+      "content": "Voici une sélection de citations poignantes du 'Mur invisible', classées par thèmes.",
+      "concepts": ["Nature", "Violence", "Métamorphose", "Raison", "Animalité", "Résilience"],
+      "questions": ["Que révèle la citation 'Aimer et prendre soin d’un être est une tâche très pénible et beaucoup plus difficile que tuer ou détruire' sur l'éthique du roman ?"],
+      "detailedSections": [
+        {"title": "Détruire la nature", "content": "« Aimer et prendre soin d’un être est une tâche très pénible et beaucoup plus difficile que tuer ou détruire. »"},
+        {"title": "Puissance / Violence de la nature", "content": "« Par moments, j’avais l’impression que la nature ne constituait pour ses créatures qu’un immense piège. »"},
+        {"title": "Métamorphoses", "content": "« je ressemble davantage à un arbre qu’à un être humain, une souche brune et coriace qui a besoin de toute sa force pour survivre »"},
+        {"title": "Connaissance / Raison", "content": "« M’obliger à écrire me semble le seul moyen de ne pas perdre la raison. », « Ce n’est que lorsque la connaissance d’une chose se répand lentement à travers le corps qu’on la sait vraiment. »"},
+        {"title": "Lien Homme / Animal", "content": "« La barrière entre les hommes et les animaux tombent très facilement. Nous appartenons à la même grande famille et quand nous sommes solitaires et malheureux, nous acceptons plus volontiers l’amitié de ces cousins éloignés. »"},
+        {"title": "Résilience de la nature", "content": "« Je vois que ce n’est pas la fin. Tout continue. Depuis ce matin, j’ai la certitude que Bella attend un veau. Et peut-être, qui sait, y aura-t-il de nouveaux petits chats. Taureau, Perle, Tigre et Lynx ne reviendront jamais, mais quelque chose de nouveau viendra et je ne peux pas m’y dérober. »"}
+      ],
+      "type": "citations"
     }
   ]
 }
+

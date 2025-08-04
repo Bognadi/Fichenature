@@ -1,6 +1,9 @@
 import * as React from "react";
 
-import { cn } from "./utils";
+// Utility function to concatenate class names
+export function cn(...classes: (string | undefined | false | null)[]): string {
+  return classes.filter(Boolean).join(" ");
+}
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
   return (

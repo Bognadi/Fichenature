@@ -167,9 +167,9 @@ export default function FlashcardSystem({ flashcards, onBack, onCreateFlashcard,
               <p className="text-muted-foreground">
                 Créez vos premières flashcards pour commencer à réviser efficacement
               </p>
-              <Button onClick={onCreateFlashcard}>
+              <Button variant={'main-cta'} onClick={onCreateFlashcard}>
                 <Plus className="w-4 h-4 mr-2" />
-                Créer ma première fiche
+                Créer ma première flashcard
               </Button>
             </CardContent>
           </Card>

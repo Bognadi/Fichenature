@@ -6,9 +6,9 @@ import { Textarea } from './ui/textarea';
 import { Label } from './ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
 import { ArrowLeft, Save, Plus } from 'lucide-react';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
-export default function CreateFiche({ onBack, onCreateFlashcard }) {
+export default function CreateFlashcard({ onBack, onCreateFlashcard }) {
   const [formData, setFormData] = useState({
     question: '',
     answer: '',
@@ -71,81 +71,81 @@ export default function CreateFiche({ onBack, onCreateFlashcard }) {
           <CardHeader>
             <CardTitle className="flex items-center gap-2">
               <Plus className="h-5 w-5" />
-              Nouvelle fiche de révision
+              Nouvelle flashcard
             </CardTitle>
             <CardDescription>
               Créez une flashcard personnalisée pour réviser un concept, une citation ou une analyse
             </CardDescription>
           </CardHeader>
-          <CardContent>
+            <CardContent>
             <form onSubmit={handleSubmit} className="space-y-6">
               {/* Category Selection */}
               <div className="space-y-2">
-                <Label htmlFor="category">Catégorie *</Label>
-                <Select value={formData.category} onValueChange={(value) => handleInputChange('category', value)}>
-                  <SelectTrigger>
-                    <SelectValue placeholder="Choisissez une catégorie" />
-                  </SelectTrigger>
-                  <SelectContent>
-                    {categories.map((category) => (
-                      <SelectItem key={category} value={category}>
-                        {category}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
+              <Label htmlFor="category">Catégorie *</Label>
+              <Select value={formData.category} onValueChange={(value) => handleInputChange('category', value)}>
+                <SelectTrigger>
+                <SelectValue placeholder="Choisissez une catégorie" />
+                </SelectTrigger>
+                <SelectContent>
+                {categories.map((category) => (
+                  <SelectItem key={category} value={category}>
+                  {category}
+                  </SelectItem>
+                ))}
+                </SelectContent>
+              </Select>
               </div>
 
               {/* Question */}
               <div className="space-y-2">
-                <Label htmlFor="question">Question / Concept *</Label>
-                <Textarea
-                  id="question"
-                  placeholder="Ex: Que signifie 'le vivant et son milieu' selon Canguilhem ?"
-                  value={formData.question}
-                  onChange={(e) => handleInputChange('question', e.target.value)}
-                  rows={3}
-                />
+              <Label htmlFor="question">Question / Concept *</Label>
+              <Textarea
+                id="question"
+                placeholder="Ex: Que signifie 'le vivant et son milieu' selon Canguilhem ?"
+                value={formData.question}
+                onChange={(e) => handleInputChange('question', e.target.value)}
+                rows={3}
+              />
               </div>
 
               {/* Answer */}
               <div className="space-y-2">
-                <Label htmlFor="answer">Réponse / Explication *</Label>
-                <Textarea
-                  id="answer"
-                  placeholder="Développez votre réponse avec les éléments clés, citations importantes, exemples..."
-                  value={formData.answer}
-                  onChange={(e) => handleInputChange('answer', e.target.value)}
-                  rows={6}
-                />
+              <Label htmlFor="answer">Réponse / Explication *</Label>
+              <Textarea
+                id="answer"
+                placeholder="Développez votre réponse avec les éléments clés, citations importantes, exemples..."
+                value={formData.answer}
+                onChange={(e) => handleInputChange('answer', e.target.value)}
+                rows={6}
+              />
               </div>
 
               {/* Difficulty */}
               <div className="space-y-2">
-                <Label htmlFor="difficulty">Niveau de difficulté</Label>
-                <Select value={formData.difficulty} onValueChange={(value) => handleInputChange('difficulty', value)}>
-                  <SelectTrigger>
-                    <SelectValue />
-                  </SelectTrigger>
-                  <SelectContent>
-                    <SelectItem value="easy">Facile</SelectItem>
-                    <SelectItem value="medium">Moyen</SelectItem>
-                    <SelectItem value="hard">Difficile</SelectItem>
-                  </SelectContent>
-                </Select>
+              <Label htmlFor="difficulty">Niveau de difficulté</Label>
+              <Select value={formData.difficulty} onValueChange={(value) => handleInputChange('difficulty', value)}>
+                <SelectTrigger>
+                <SelectValue />
+                </SelectTrigger>
+                <SelectContent>
+                <SelectItem value="easy">Facile</SelectItem>
+                <SelectItem value="medium">Moyen</SelectItem>
+                <SelectItem value="hard">Difficile</SelectItem>
+                </SelectContent>
+              </Select>
               </div>
 
               <div className="flex justify-end space-x-4">
-                <Button type="button" variant="outline" onClick={onBack}>
-                  Annuler
-                </Button>
-                <Button type="submit">
-                  <Save className="w-4 h-4 mr-2" />
-                  Créer la flashcard
-                </Button>
+              <Button type="button" variant="outline" onClick={onBack}>
+                Annuler
+              </Button>
+              <Button type="submit" variant="main-cta" className="flex items-center">
+                <Save className="w-4 h-4 mr-2" />
+                Créer la flashcard
+              </Button>
               </div>
             </form>
-          </CardContent>
+            </CardContent>
         </Card>
 
         {/* Quick Tips */}
