@@ -200,3 +200,7 @@ html {
 .main-cta {
   @apply bg-black text-white;
 }
+
+.bg-blue-to-pearl {
+  background: linear-gradient(45deg, #dff1ff 50%, #f8e1ec 100%);
+}

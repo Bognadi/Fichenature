@@ -53,7 +53,7 @@ export default function Dashboard({
       : 0;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 p-4">
+    <div className="min-h-screen bg-blue-to-pearl p-4">
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Header */}
         <div className="text-center space-y-4 pt-8">

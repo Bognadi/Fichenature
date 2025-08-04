@@ -15,6 +15,15 @@ import MethodologySection from '../components/MethodologySection';
 import ThemeSection from '../components/ThemeSection';
 import "../styles/globals.css";
 import fichesData from './fiches.json';
+import defaultFlashcards from './flashcards.json'; // Assure-toi que ce fichier existe
+
+type Flashcard = {
+  id: string;
+  question: string;
+  answer: string;
+  createdAt?: Date;
+  // Add other fields as needed
+};
 
 export default function App() {
   type BookProgress = {
@@ -36,49 +45,31 @@ export default function App() {
   const [activeTab, setActiveTab] = useState<string>('dashboard');
   const [selectedFlashcardId, setSelectedFlashcardId] = useState<number | null>(null);
   const [studyData, setStudyData] = useState<StudyData>(() => {
-    const defaultData: StudyData = {
+    const saved = localStorage.getItem('philosophyStudyData');
+    if (saved) {
+      const parsed = JSON.parse(saved);
+      // Si aucune flashcard n'existe, injecte celles par défaut
+      if (!parsed.flashcards || parsed.flashcards.length === 0) {
+        return {
+          ...parsed,
+          flashcards: defaultFlashcards
+        };
+      }
+      return parsed;
+    }
+    // Sinon, charge les flashcards par défaut
+    return {
       booksProgress: {
         'connaissance-vie': { completed: 0, total: 12, fichesSeen: [] },
         'vingt-mille-lieues': { completed: 0, total: 10, fichesSeen: [] },
         'mur-invisible': { completed: 0, total: 8, fichesSeen: [] },
         'methodologie': { completed: 0, total: 6, fichesSeen: [] }
       },
-      flashcards: [],
+      flashcards: defaultFlashcards,
       totalStudyTime: 0,
       streakDays: 0,
       lastStudyDate: null
     };
-    if (typeof window !== "undefined") {
-      const saved = localStorage.getItem('philosophyStudyData');
-      if (saved) {
-        try {
-          const parsedData = JSON.parse(saved);
-          // Ensure all required progress objects exist
-          const booksProgress = {
-            ...defaultData.booksProgress,
-            ...parsedData.booksProgress
-          };
-          // Parse createdAt back to Date object if present in flashcards
-          const flashcards = Array.isArray(parsedData.flashcards)
-            ? parsedData.flashcards.map((fc: any) => ({
-                ...fc,
-                createdAt: fc.createdAt ? new Date(fc.createdAt) : undefined
-              }))
-            : [];
-          return {
-            ...defaultData,
-            ...parsedData,
-            booksProgress,
-            flashcards
-          };
-        } catch (error) {
-          console.error('Error parsing saved data:', error);
-          return defaultData;
-        }
-      }
-    }
-    return defaultData;
-    return defaultData;
   });
 
   // Helper to get fiches for a book or methodology
@@ -352,6 +343,7 @@ export default function App() {
       setActiveTab('flashcards');
     }}
     onNavigateToThemes={() => setActiveTab('themes')}
+    themeProgress={themeProgress}
     resetAdvancement={resetAdvancement} // <-- Pass the reset function
   />;
 }

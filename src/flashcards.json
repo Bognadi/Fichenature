@@ -1,0 +1,818 @@
+[
+  {
+    "id": "fc-1",
+    "question": "Qui est Georges Canguilhem et quels sont ses principaux domaines d'étude ?",
+    "answer": "Georges Canguilhem (1904-1995) était un philosophe, épistémologue et médecin français, principalement connu pour ses travaux en philosophie des sciences, notamment dans les domaines de la biologie et de la médecine.",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "easy",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-2",
+    "question": "Quel événement historique majeur a marqué l'engagement de Georges Canguilhem ?",
+    "answer": "Georges Canguilhem s'est engagé dans la Résistance française dès 1940 sous le pseudonyme de Lafont, où il a notamment organisé un service de santé pour les maquisards.",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "medium",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-3",
+    "question": "Pourquoi Canguilhem a-t-il entrepris des études de médecine tardivement ?",
+    "answer": "Il a commencé des études de médecine pour ajouter des connaissances d'expérience à son savoir philosophique livresque, et non pour exercer la médecine. Il s'agissait d'une démarche philosophique.",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "medium",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-4",
+    "question": "Quelle est la composition de l'ouvrage \"La Connaissance de la vie\" ?",
+    "answer": "Il s'agit d'un recueil d'articles et de conférences écrits entre 1945 et 1951, remaniés en 1952, et complétés par un chapitre supplémentaire sur la monstruosité en 1965.",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "easy",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-5",
+    "question": "Quel débat philosophique central est abordé par Canguilhem dans son œuvre ?",
+    "answer": "Le débat entre le vitalisme (la vie a une spécificité irréductible) et le mécanisme (les organismes sont des machines complexes). Canguilhem propose un vitalisme épistémologique.",
+    "category": "Contexte philosophique",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-6",
+    "question": "Comment Canguilhem définit-il la connaissance dans l'introduction \"La pensée et le vivant\" ?",
+    "answer": "La connaissance n'est pas une fin en soi mais une méthode pour résoudre les tensions entre l'homme et son milieu, une quête de sécurité et d'adaptation.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-7",
+    "question": "Quels sont les cinq obstacles majeurs à l'expérimentation en biologie animale identifiés par Canguilhem ?",
+    "answer": "1. La spécificité des systèmes biologiques, 2. L'individualisation, 3. La totalité de l'organisme, 4. L'irréversibilité des processus vitaux, 5. Les problèmes éthiques.",
+    "category": "Méthodes et démarches",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-8",
+    "question": "Quelle est la différence fondamentale entre une machine et un organisme pour Canguilhem ?",
+    "answer": "L'organisme possède une capacité d'auto-organisation, d'auto-construction et d'auto-réparation. Sa finalité est intrinsèque, tandis que celle de la machine est imposée de l'extérieur par son concepteur.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-9",
+    "question": "Comment Canguilhem redéfinit-il la notion de \"milieu\" ?",
+    "answer": "Le milieu n'est pas un simple environnement extérieur. Pour Canguilhem, « Le propre du vivant, c’est de se faire son milieu, de se composer son milieu ». Le vivant est un centre qui organise son propre monde.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-10",
+    "question": "Comment Canguilhem distingue-t-il le \"normal\" du \"pathologique\" ?",
+    "answer": "Le pathologique n'est pas une simple déviation quantitative de la norme, mais une altération qualitative de la vie, une nouvelle norme vitale. La normalité est la capacité de l'organisme à s'adapter et à instituer de nouvelles normes.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-11",
+    "question": "Quelle est la différence entre \"monstruosité\" et \"monstrueux\" selon Canguilhem ?",
+    "answer": "La monstruosité est une anomalie physique, un \"égarement ontogénique\". Le monstrueux relève plutôt du délictueux, d'une perversion des règles orchestrée par l'homme.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-12",
+    "question": "Quelle est la position de Canguilhem sur l'objectivité en biologie ?",
+    "answer": "Il critique l'idée d'une science purement objective. L'observation n'est jamais neutre, elle est toujours influencée par les besoins du vivant et le contexte. Il prône une \"connaissance naïve\".",
+    "category": "Méthodes et démarches",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-13",
+    "question": "Pourquoi l'épisode de la tentative de fugue de Jules Verne à 11 ans est-il significatif ?",
+    "answer": "Il montre son désir précoce d'aventure et de voyage, une passion qui nourrira toute son œuvre littéraire, malgré l'opposition de son père qui le destinait à une carrière d'avoué.",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-14",
+    "question": "Quel rôle l'éditeur Pierre-Jules Hetzel a-t-il joué dans la carrière de Verne ?",
+    "answer": "Hetzel a non seulement publié le premier grand succès de Verne, \"Cinq semaines en ballon\", mais il a aussi inventé le genre du \"roman de vulgarisation scientifique\" et a encadré sa production au sein des \"Voyages extraordinaires\".",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-15",
+    "question": "Dans quel contexte historique de révoltes s'inscrit le personnage du Capitaine Nemo ?",
+    "answer": "Nemo est un homme de 1848, le \"Printemps des peuples\". C'est un défenseur des opprimés (Indiens, Crétois) et un pourfendeur de l'impérialisme, reflétant les aspirations démocratiques et anticolonialistes de l'époque.",
+    "category": "Contexte historique et social",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-16",
+    "question": "Quel courant de pensée du XIXe siècle, prônant le progrès par la science et l'industrie, influence fortement le roman de Verne ?",
+    "answer": "Le saint-simonisme, une utopie socialiste qui voyait dans la science, le travail et l'industrie les moteurs du progrès social. Nemo incarne l'ingénieur saint-simonien.",
+    "category": "Contexte historique et social",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-17",
+    "question": "Comment l'Exposition universelle de 1867 a-t-elle influencé l'œuvre de Verne ?",
+    "answer": "Elle a mis en lumière les dernières innovations technologiques (électricité, machines à vapeur, sous-marins) qui sont au cœur de l'univers de \"Vingt mille lieues sous les mers\".",
+    "category": "Contexte historique et social",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-18",
+    "question": "En quoi le roman de Verne est-il influencé par le romantisme ?",
+    "answer": "Par le style lyrique, l'exaltation face à la nature sublime, et surtout par la figure du héros romantique révolté, le \"génie\" sublime et maudit, qu'incarne parfaitement le Capitaine Nemo.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-19",
+    "question": "Quel est le rôle du personnage de Pierre Aronnax ?",
+    "answer": "Aronnax est le narrateur. En tant que professeur au Muséum d'Histoire naturelle, il incarne le regard scientifique, celui qui observe, classe et cherche à comprendre rationnellement les merveilles découvertes.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-20",
+    "question": "Que représente le personnage de Ned Land ?",
+    "answer": "Ned Land, le harponneur, représente l'homme d'action, le pragmatisme et le corps. Il est sceptique face à la science et incarne un désir constant de liberté et de retour à la terre ferme.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-21",
+    "question": "Quelle est la fonction du personnage de Conseil ?",
+    "answer": "Conseil est le fidèle domestique d'Aronnax. Il est l'incarnation de la manie classificatoire de la science, capable de nommer et classer toutes les espèces, mais parfois aveugle à la réalité globale.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-22",
+    "question": "Quelle est la double nature du Capitaine Nemo ?",
+    "answer": "Nemo est un personnage ambigu : il est à la fois un génie scientifique humaniste qui aide les opprimés, et un \"archange de la haine\", un justicier vengeur capable d'une cruauté impitoyable.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "hard",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-23",
+    "question": "Quelles sont les trois fonctions principales du Nautilus ?",
+    "answer": "Le Nautilus est à la fois un instrument d'exploration scientifique (un laboratoire flottant), un refuge utopique permettant de fuir la société humaine, et une redoutable machine de guerre.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-24",
+    "question": "Comment le roman se structure-t-il ?",
+    "answer": "Le roman est divisé en deux parties qui suivent le voyage du Nautilus. La structure est celle d'un roman d'aventures publié en feuilleton, avec des péripéties et des cliffhangers pour maintenir le suspense.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-25",
+    "question": "Pourquoi \"Vingt mille lieues sous les mers\" est-il considéré comme une odyssée ?",
+    "answer": "C'est un long voyage périlleux riche en aventures et en enseignements, à l'image de l'Odyssée d'Homère. La référence est explicite avec le nom \"Nemo\", qui est le pseudonyme d'Ulysse.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-26",
+    "question": "Quel milieu de son enfance a profondément influencé l'œuvre de Marlen Haushofer ?",
+    "answer": "Son enfance dans un village isolé des Alpes autrichiennes, dans une maison forestière, a forgé son lien profond avec la nature et son sentiment de solitude.",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "easy",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-27",
+    "question": "Quel événement de la Guerre Froide est un contexte direct à la publication du \"Mur invisible\" en 1963 ?",
+    "answer": "Le Mur de Berlin, construit en 1961. Le mur du roman, bien qu'invisible, matérialise la séparation, l'isolement et la tension géopolitique de l'époque.",
+    "category": "Contexte historique et social",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-28",
+    "question": "Quelle menace planétaire des années 1950-60 sert de toile de fond à la catastrophe du roman ?",
+    "answer": "La menace d'une guerre nucléaire. La narratrice imagine que la catastrophe est due à une \"arme nouvelle\" qui tue les êtres vivants sans détruire la matière, évoquant les craintes liées à la bombe atomique.",
+    "category": "Contexte historique et social",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-29",
+    "question": "Pourquoi l'œuvre de Haushofer est-elle considérée comme un précurseur de l'écoféminisme ?",
+    "answer": "Parce qu'elle met en parallèle la domination subie par la femme dans la société patriarcale et l'exploitation de la nature, et décrit l'émancipation de la narratrice par sa fusion avec un monde naturel libéré des hommes.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "hard",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-30",
+    "question": "Quel est le paradoxe du titre \"Le Mur invisible\" ?",
+    "answer": "Le mur est paradoxal car bien qu'invisible et transparent, il est une limite physique infranchissable, dure et froide, qui blesse la narratrice lorsqu'elle le touche pour la première fois.",
+    "category": "Présentation de l'œuvre",
+    "difficulty": "easy",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-31",
+    "question": "En quoi \"Le Mur invisible\" s'inspire-t-il du genre de la robinsonnade ?",
+    "answer": "Il reprend le thème de la survie en solitaire dans un milieu naturel après une coupure avec la civilisation. Cependant, il le revisite en montrant une adaptation par la fusion avec la nature, et non sa domination.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-32",
+    "question": "Quelle est la principale motivation de la narratrice pour commencer son récit ?",
+    "answer": "Sa principale motivation est de lutter contre la folie et de ne pas \"perdre la raison\". L'écriture est une tentative de mettre de l'ordre dans une expérience absurde et de maintenir son humanité.",
+    "category": "Présentation de l'œuvre",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-33",
+    "question": "Comment le corps de la narratrice se transforme-t-il derrière le mur ?",
+    "answer": "Son corps perd les attributs de la féminité bourgeoise (rondeurs, double menton) et devient un outil adapté à la survie, \"mince et brun\", avec des \"épaules pointues\". Elle \"perd la conscience d'être une femme\".",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-34",
+    "question": "Quelle nouvelle \"famille\" la narratrice se constitue-t-elle ?",
+    "answer": "Elle se constitue une famille inter-espèces avec les animaux qui partagent sa vie : le chien Lynx, la vache Bella, la chatte et ses petits. Ces relations remplacent les liens humains décevants de son passé.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "easy",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-35",
+    "question": "Que symbolise l'homme qui apparaît à la fin du roman et tue Taureau et Lynx ?",
+    "answer": "Il symbolise le retour de la violence destructrice du monde patriarcal. Il incarne une masculinité prédatrice qui saccage l'harmonie que la narratrice avait construite avec la nature.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "hard",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-36",
+    "question": "Quelle est la fonction symbolique de la vache Bella ?",
+    "answer": "Bella est une figure maternelle et nourricière, une \"sœur patiente\". Elle représente la sagesse, la tranquillité et la résilience de la nature, un point d'ancrage stable pour la narratrice.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-37",
+    "question": "Comment le rapport au temps de la narratrice évolue-t-il ?",
+    "answer": "Elle passe d'un temps humain, précipité et vide (\"harcelé par des milliers de montres\"), à un temps naturel, lent et plein, rythmé par les saisons, le soleil et le comportement des animaux.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-38",
+    "question": "Quelle est la différence fondamentale entre le regard d'Aronnax et celui de la narratrice du \"Mur invisible\" ?",
+    "answer": "Le regard d'Aronnax est celui de l'observateur scientifique, qui cherche à analyser et classer. Le regard de la narratrice est celui de la contemplation, une immersion passive, sensorielle et émotionnelle dans la nature.",
+    "category": "Thèmes transversaux",
+    "difficulty": "hard",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-39",
+    "question": "Comment le thème de la renaissance est-il traité différemment chez Verne et Haushofer ?",
+    "answer": "Chez Verne, Nemo renaît en se créant une nouvelle identité de justicier des mers, en rupture avec son passé. Chez Haushofer, la narratrice renaît en se dépouillant de son ancienne identité pour fusionner avec la nature.",
+    "category": "Thèmes transversaux",
+    "difficulty": "medium",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-40",
+    "question": "Quelle est l'éthique de la chasse défendue par le Capitaine Nemo ?",
+    "answer": "Nemo s'oppose à la chasse comme \"passe-temps meurtrier\". Il n'accepte de tuer que par nécessité (pour se nourrir) et pour rétablir un équilibre naturel (en tuant les cachalots pour défendre les baleines).",
+    "category": "Thèmes transversaux",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-41",
+    "question": "Comment les trois œuvres illustrent-elles la tentative humaine d'imposer un ordre à la nature ?",
+    "answer": "Chez Verne, par la classification obsessionnelle de Conseil. Chez Haushofer, par la tentative initiale de la narratrice de maintenir un calendrier. Chez Canguilhem, par la critique de la science qui veut imposer des lois universelles au vivant.",
+    "category": "Thèmes transversaux",
+    "difficulty": "hard",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-42",
+    "question": "Comment la violence de la nature est-elle représentée dans \"Vingt mille lieues sous les mers\" ?",
+    "answer": "Elle est représentée par des phénomènes naturels (tempêtes, maelström) et par des créatures monstrueuses et prédatrices (poulpes géants, requins). C'est une force sublime et dangereuse.",
+    "category": "Thèmes transversaux",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-43",
+    "question": "Quelles sont les différentes formes de transcription de l'expérience de la nature dans \"Vingt mille lieues sous les mers\" ?",
+    "answer": "Il y a le journal scientifique et rétrospectif d'Aronnax, le manuscrit autobiographique de Nemo, les récits oraux et épiques de Ned Land, et les articles de journaux sensationnalistes.",
+    "category": "Thèmes transversaux",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-44",
+    "question": "En quoi l'écriture est-elle une forme de résilience pour la narratrice du \"Mur invisible\" ?",
+    "answer": "Après le traumatisme final (la mort de ses animaux), l'écriture lui permet de mettre en mots l'indicible, de donner un sens à son expérience et de conclure sur la continuation de la vie (\"Tout continue.\").",
+    "category": "Thèmes transversaux",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-45",
+    "question": "Quel est l'objectif principal de l'exercice du résumé de texte ?",
+    "answer": "Restituer l'essentiel du texte de façon condensée en respectant la thèse, le raisonnement et l'ordre des arguments de l'auteur, le tout en reformulant avec son propre vocabulaire.",
+    "category": "Méthodes et démarches",
+    "difficulty": "easy",
+    "book": "Méthodologie"
+  },
+  {
+    "id": "fc-46",
+    "question": "Qu'est-ce qu'il est interdit de faire dans un résumé ?",
+    "answer": "Il est interdit de présenter ou commenter le texte, de citer l'auteur, de recopier des passages (même entre guillemets) et d'ajouter des idées personnelles.",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium",
+    "book": "Méthodologie"
+  },
+  {
+    "id": "fc-47",
+    "question": "Qu'est-ce que \"problématiser\" un sujet de dissertation ?",
+    "answer": "C'est relever ce qui pose question dans la citation ou le sujet, identifier la tension ou le paradoxe sous-jacent, et le formuler sous la forme d'une question directe ou indirecte qui guidera la discussion.",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium",
+    "book": "Méthodologie"
+  },
+  {
+    "id": "fc-48",
+    "question": "Quelles sont les trois grandes étapes d'une introduction de dissertation ?",
+    "answer": "1. L'amorce (présenter le sujet via une référence culturelle pertinente), 2. L'analyse du sujet et la formulation de la problématique, 3. L'annonce du plan.",
+    "category": "Méthodes et démarches",
+    "difficulty": "easy",
+    "book": "Méthodologie"
+  },
+  {
+    "id": "fc-49",
+    "question": "Quel est le rôle de la conclusion d'une dissertation ?",
+    "answer": "Elle doit répondre de manière synthétique à la problématique en résumant les étapes du raisonnement, et proposer une ouverture (faire un lien avec une autre œuvre, un autre domaine, une question d'actualité).",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium",
+    "book": "Méthodologie"
+  },
+  {
+    "id": "fc-50",
+    "question": "Quelle citation de Canguilhem résume sa vision de la relation entre le vivant et son milieu ?",
+    "answer": "« Le propre du vivant, c’est de se faire son milieu, de se composer son milieu. »",
+    "category": "Citations",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-51",
+    "question": "Quelle phrase de Nemo résume sa philosophie de la liberté et de l'indépendance ?",
+    "answer": "« Ah ! monsieur, vivez, vivez au sein des mers ! Là seulement est l’indépendance ! Là je ne reconnais pas de maîtres ! Là je suis libre ! »",
+    "category": "Citations",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-52",
+    "question": "Quelle phrase du \"Mur invisible\" exprime la violence du patriarcat selon la narratrice ?",
+    "answer": "« L’homme était le seul ennemi que j’avais connu dans mon ancienne vie. »",
+    "category": "Citations",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-53",
+    "question": "Quelle phrase de Canguilhem souligne la nécessité de l'humilité en science ?",
+    "answer": "« Pour faire de la biologie, même avec l’aide de l’intelligence, nous avons parfois besoin de nous sentir bêtes. »",
+    "category": "Citations",
+    "difficulty": "medium",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-54",
+    "question": "Comment Aronnax décrit-il la puissance créatrice et destructrice de la mer ?",
+    "answer": "« La mer n’est que le véhicule d’une surnaturelle et prodigieuse existence ; elle n’est que mouvement et amour ; c’est l’infini vivant. »",
+    "category": "Citations",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-55",
+    "question": "Quelle est la dernière phrase du récit de la narratrice du \"Mur invisible\", et que signifie-t-elle ?",
+    "answer": "« Je vois que ce n’est pas la fin. Tout continue. » Elle signifie la résilience de la vie qui, malgré le drame et la violence, poursuit son cycle.",
+    "category": "Citations",
+    "difficulty": "hard",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-56",
+    "question": "Comment Canguilhem définit-il la vie par rapport à l'expérimentation ?",
+    "answer": "« La vie est expérience, c’est-à-dire improvisation, utilisation des occurrences ; elle est tentative dans tous les sens. »",
+    "category": "Citations",
+    "difficulty": "medium",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-57",
+    "question": "Quelle est la profession de foi finale de Nemo, qui le définit comme justicier ?",
+    "answer": "« Je suis le droit, je suis la justice ! […] Je suis l’opprimé, et voilà l’oppresseur ! C’est par lui que tout ce que j’ai aimé... j’ai vu tout périr ! »",
+    "category": "Citations",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-58",
+    "question": "Comment la narratrice du \"Mur invisible\" décrit-elle son nouveau rapport au temps ?",
+    "answer": "« Ici tout vient en son temps, un temps qui n’est pas harcelé par des milliers de montres. Rien ne pousse ni ne presse. »",
+    "category": "Citations",
+    "difficulty": "easy",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-59",
+    "question": "Quelle est la devise du Nautilus et que signifie-t-elle ?",
+    "answer": "« Mobilis in mobile », ce qui signifie en latin « Mobile dans l’élément mobile ». Elle exprime la symbiose parfaite du sous-marin avec son milieu, l'océan.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-60",
+    "question": "En quoi le Nautilus est-il une utopie ?",
+    "answer": "Il représente un espace autonome, en dehors des lois et des nations, autosuffisant grâce à la mer et à la science, où Nemo tente de créer un ordre social plus juste.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-61",
+    "question": "Quel est le principal moteur du progrès technique et scientifique au XIXe siècle, omniprésent dans le Nautilus ?",
+    "answer": "L'électricité. Jules Verne la décrit comme « la chaleur, le mouvement, la vie en un mot », une énergie quasi-magique qui rend tout possible.",
+    "category": "Contexte historique et social",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-62",
+    "question": "Comment la fin de \"Vingt mille lieues sous les mers\" reste-t-elle ouverte ?",
+    "answer": "Le sort final du Nautilus et de Nemo est incertain. Aronnax se demande s'ils ont été emportés par le Maelström ou si le sous-marin \"sillonne-t-il toujours les mers ?\", laissant le mystère entier.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-63",
+    "question": "En quoi la narratrice du \"Mur invisible\" rompt-elle avec l'ancien monde ?",
+    "answer": "Elle rompt avec les normes sociales (superficialité, rôle de mère et d'épouse), avec la violence patriarcale, et avec un rapport de domination sur la nature, pour renaître dans un monde de symbiose et de résilience.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-64",
+    "question": "Quel est le rôle de la forêt dans \"Le Mur invisible\" ?",
+    "answer": "La forêt est un milieu ambivalent : d'abord perçue comme une \"prison forestière\", elle devient ensuite le lieu de la renaissance, de l'apprentissage, et un refuge protecteur pour la narratrice et sa nouvelle famille.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-65",
+    "question": "Comment Canguilhem critique-t-il la vision cartésienne de l'animal-machine ?",
+    "answer": "Il montre que cette vision réduit l'organisme à un simple mécanisme, ignorant sa capacité d'auto-organisation, son individualité et sa normativité (sa capacité à créer ses propres règles de vie).",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-66",
+    "question": "Quelle est la position de Nemo sur l'exploitation des ressources naturelles ?",
+    "answer": "Nemo exploite les ressources de la mer de manière intensive mais se veut en harmonie avec elle, la considérant comme une \"nourrice inépuisable\". Il prône une autosuffisance totale par rapport aux ressources terrestres.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-67",
+    "question": "Pourquoi la narratrice du \"Mur invisible\" ne cherche-t-elle pas à s'échapper ?",
+    "answer": "Elle développe un sentiment de responsabilité envers ses animaux (\"je ne pouvais pas fuir et laisser tomber mes bêtes\") et se sent plus en sécurité dans sa nouvelle vie simple que dans le monde des hommes qu'elle a fui.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-68",
+    "question": "Quel est le principal enseignement de la Fiche 12 sur \"L'expérience par l'observation de la nature\" ?",
+    "answer": "Elle distingue l'observation (processus actif et méthodique, comme Aronnax) de la contemplation (immersion passive et esthétique, comme la narratrice du Mur), deux manières différentes d'expérimenter la nature.",
+    "category": "Thèmes transversaux",
+    "difficulty": "easy",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-69",
+    "question": "Quel est le principal enseignement de la Fiche 16 sur \"Ordre et désordre\" ?",
+    "answer": "Elle montre que l'homme tente de rationaliser et d'ordonner la nature (par la classification, les collections, les frontières) pour la maîtriser, alors que l'expérience véritable du vivant consiste à accepter son désordre créatif et sa monstruosité.",
+    "category": "Thèmes transversaux",
+    "difficulty": "hard",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-70",
+    "question": "Quel est le principal enseignement de la Fiche 17 sur \"Violence et résilience\" ?",
+    "answer": "Elle oppose la violence humaine (prédation, guerre, technique destructrice) à la résilience de la nature, qui a la capacité de guérir ses propres plaies et de faire renaître la vie sur les ruines laissées par l'homme.",
+    "category": "Thèmes transversaux",
+    "difficulty": "medium",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-71",
+    "question": "Qui était le professeur de philosophie de Canguilhem en Khâgne, et quelle était son influence ?",
+    "answer": "Son professeur était Émile Chartier, dit Alain. Partisan de la dissuasion armée, il a conforté Canguilhem dans son antimilitarisme.",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "medium",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-72",
+    "question": "Quelle est l'attitude de Canguilhem face à l'erreur en science ?",
+    "answer": "Loin d'être une faiblesse, l'erreur est pour lui une force motrice de la pensée. La connaissance progresse en s'arrachant à l'emprise des erreurs, une idée héritée de Bachelard.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-73",
+    "question": "Quel auteur américain, traduit par Baudelaire, a fasciné Jules Verne et a influencé son goût pour les récits d'exploration ?",
+    "answer": "Edgar Allan Poe, notamment avec son roman \"Les Aventures d'Arthur Gordon Pym\" qui se déroule en Antarctique.",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-74",
+    "question": "Où Jules Verne a-t-il écrit la majeure partie de \"Vingt mille lieues sous les mers\" ?",
+    "answer": "Il l'a écrit en Picardie, au Crotoy, à bord de son premier bateau, le Saint-Michel, un environnement maritime qui lui rappelait son enfance nantaise.",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "easy",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-75",
+    "question": "Quelle est la vision de la société humaine par la narratrice du \"Mur Invisible\" avant la catastrophe ?",
+    "answer": "Elle la voit comme un \"monde hostile aux femmes\", marqué par des rapports de domination, la superficialité, et un \"ennui\" constant qui anesthésie les individus.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-76",
+    "question": "Comment la narratrice perçoit-elle la mort dans son nouvel environnement ?",
+    "answer": "Elle l'accepte comme une partie naturelle du cycle de la vie, envisageant de \"mourir comme n'importe quel animal\". Elle ne la craint plus comme une fin mais l'intègre à l'existence.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-77",
+    "question": "En quoi l'expérience de la connaissance est-elle différente dans les trois œuvres ?",
+    "answer": "Verne présente une connaissance encyclopédique et triomphante. Haushofer montre un savoir empirique né de la nécessité. Canguilhem théorise une connaissance humble et adaptée à la complexité du vivant.",
+    "category": "Thèmes transversaux",
+    "difficulty": "hard",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-78",
+    "question": "Quelle est la limite de la science incarnée par Aronnax et critiquée par Canguilhem ?",
+    "answer": "C'est une science qui découpe, classe et analyse, mais qui peine à saisir le vivant dans sa totalité, son mouvement et sa dynamique. Elle privilégie la théorie sur l'expérience vécue.",
+    "category": "Thèmes transversaux",
+    "difficulty": "hard",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-79",
+    "question": "Comment la notion de \"monstre\" est-elle traitée dans Verne et Haushofer ?",
+    "answer": "Chez Verne, le monstre (poulpe) est une menace extérieure à combattre. Chez Haushofer, la monstruosité est une potentialité intérieure, une hybridation avec l'animal et le végétal qui mène à une forme de libération.",
+    "category": "Thèmes transversaux",
+    "difficulty": "medium",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-80",
+    "question": "Quel est le but de la Fiche 15, \"Renaître avec la nature\" ?",
+    "answer": "Elle analyse comment l'expérience de la nature dans les trois œuvres est une occasion de rompre avec un passé aliénant (normes sociales, violence) et de se métamorphoser, de se découvrir une nouvelle identité.",
+    "category": "Thèmes transversaux",
+    "difficulty": "easy",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-81",
+    "question": "Quel est le statut de l'animal dans la philosophie de Canguilhem ?",
+    "answer": "L'animal n'est pas un objet passif. Il est un sujet actif qui a son propre \"milieu\", ses propres normes et son propre rapport au monde. Canguilhem s'oppose à toute projection anthropomorphique sur l'animal.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-82",
+    "question": "Quels sont les deux pôles de la science selon Nemo ?",
+    "answer": "La science est à la fois un outil d'émerveillement, de connaissance et de progrès (l'exploration sous-marine), mais aussi un instrument de puissance et de destruction terrible (le Nautilus comme arme de guerre).",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-83",
+    "question": "Comment la narratrice du \"Mur Invisible\" redéfinit-elle la notion de \"famille\" ?",
+    "answer": "Elle la redéfinit sur une base non plus humaine mais inter-espèces, fondée sur la responsabilité, le soin (\"care\") et l'affection partagés avec ses animaux, qui sont plus fiables que sa famille humaine passée.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-84",
+    "question": "Quelle est la principale critique de Canguilhem envers la physiologie classique ?",
+    "answer": "Il lui reproche de donner la primauté au normal sur le pathologique et de voir la maladie comme une simple déviation. Pour lui, le pathologique est une autre norme de vie, et c'est en étudiant le malade qu'on comprend la santé.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-85",
+    "question": "Comment est représenté l'échec de la technique face à la nature dans \"Vingt mille lieues sous les mers\" ?",
+    "answer": "Il est représenté par deux épisodes majeurs : l'attaque des poulpes qui parviennent à stopper l'hélice du Nautilus, et l'emprisonnement du sous-marin dans la banquise du pôle Sud, où la machine est impuissante.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-86",
+    "question": "Quel est le statut de la parole et du langage dans \"Le Mur invisible\" ?",
+    "answer": "Le langage humain est perçu comme inadéquat pour décrire la nouvelle réalité de la narratrice. Le vrai dialogue se passe de mots, dans une \"tranquille compréhension silencieuse\" avec ses animaux.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-87",
+    "question": "Quelle est la vision de la santé de Canguilhem ?",
+    "answer": "La santé n'est pas l'absence de maladie, mais la capacité d'un organisme à tomber malade et à s'en relever, c'est-à-dire à surmonter les crises en instituant de nouvelles normes de vie. C'est une capacité normative.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-88",
+    "question": "Quelle est l'importance des listes et des classifications dans le roman de Verne ?",
+    "answer": "Elles ancrent le récit dans une démarche de scientificité positiviste. Elles reflètent la volonté du XIXe siècle de nommer, classer et ordonner le monde pour se l'approprier intellectuellement.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-89",
+    "question": "Pourquoi la fin du \"Mur invisible\" est-elle à la fois tragique et porteuse d'espoir ?",
+    "answer": "Elle est tragique car la violence du monde extérieur fait irruption et détruit une partie de son microcosme. Elle est porteuse d'espoir car la narratrice y survit et affirme la résilience et la continuité de la vie (\"Tout continue\").",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-90",
+    "question": "Quel est le lien entre éthique et expérience de la nature selon la Fiche 13 ?",
+    "answer": "L'expérience de la nature confronte l'homme à sa responsabilité. Elle l'invite à passer d'une posture de domination à une éthique du respect, de la protection et de la reconnaissance de l'interdépendance avec le vivant.",
+    "category": "Thèmes transversaux",
+    "difficulty": "medium",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-91",
+    "question": "Quels sont les différents types de narrateurs dans les trois œuvres ?",
+    "answer": "Verne utilise un narrateur scientifique (Aronnax). Haushofer utilise un narrateur introspectif (la femme anonyme). Canguilhem utilise une voix philosophique et argumentative (le \"nous\" professoral).",
+    "category": "Thèmes transversaux",
+    "difficulty": "easy",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-92",
+    "question": "Quel est le statut du corps dans les expériences de la nature décrites ?",
+    "answer": "Le corps est le vecteur essentiel de l'expérience. Il est à la fois outil (mains de la narratrice), lieu de sensations (plaisir, douleur) et sujet de métamorphoses (adaptation, vieillissement, hybridation).",
+    "category": "Thèmes transversaux",
+    "difficulty": "medium",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-93",
+    "question": "Comment la notion de \"limite\" est-elle explorée dans les trois œuvres ?",
+    "answer": "Verne explore le franchissement des limites géographiques et technologiques. Haushofer explore les limites de la condition humaine et de la solitude. Canguilhem explore les limites de la connaissance scientifique.",
+    "category": "Thèmes transversaux",
+    "difficulty": "hard",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-94",
+    "question": "Quel est le point commun entre la philosophie de Canguilhem et la conclusion de la narratrice du \"Mur invisible\" ?",
+    "answer": "Tous deux affirment la primauté de la vie comme force créatrice et résiliente, capable de surmonter les crises et d'inventer de nouvelles formes. C'est l'idée que \"la vie tolère des monstruosités\" et que \"tout continue\".",
+    "category": "Thèmes transversaux",
+    "difficulty": "hard",
+    "book": "Thèmes transversaux"
+  },
+  {
+    "id": "fc-95",
+    "question": "Qu'est-ce que l'\"éthique du care\" et comment s'illustre-t-elle dans \"Le Mur invisible\" ?",
+    "answer": "C'est une éthique fondée sur le soin, la sollicitude et l'attention à la vulnérabilité d'autrui. Elle s'illustre par la responsabilité que la narratrice développe envers ses animaux, qu'elle choisit d'aimer et de protéger plutôt que de les abandonner.",
+    "category": "Contexte historique et social",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-96",
+    "question": "Quelles sont les deux visions de la nature qui s'opposent dans \"Vingt mille lieues sous les mers\" ?",
+    "answer": "Une vision d'exploitation et de prédation (incarnée par Ned Land et la chasse baleinière) et une vision de respect et de préservation (incarnée par Nemo qui défend les baleines).",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-97",
+    "question": "Quelle critique de la technique est présente dans \"La Connaissance de la vie\" ?",
+    "answer": "Canguilhem critique l'idée de réduire la technique à une simple application de la science. Il montre que science et technique sont deux activités distinctes qui s'influencent mutuellement, et que la technique a sa propre originalité.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-98",
+    "question": "En quoi l'expérience de la nature chez Haushofer est-elle une expérience des sens ?",
+    "answer": "Privée de contacts humains, la narratrice développe une hypersensibilité à son environnement : l'odeur de la forêt, le goût des fruits sauvages, le contact avec les animaux, la contemplation des paysages.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "easy",
+    "book": "Le Mur invisible"
+  },
+  {
+    "id": "fc-99",
+    "question": "Quel événement du roman de Verne illustre le mieux le thème de la résilience de la nature humaine et technique ?",
+    "answer": "L'épisode de l'emprisonnement sous la banquise, où l'équipage, au bord de l'asphyxie, parvient par un effort collectif et une idée ingénieuse de Nemo à se libérer de l'étreinte de la glace.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Vingt mille lieues sous les mers"
+  },
+  {
+    "id": "fc-100",
+    "question": "Quelle est la principale différence entre la conception de l'expérience chez Claude Bernard et chez Canguilhem ?",
+    "answer": "Pour Bernard, l'expérimentateur doit se taire pour écouter la nature. Canguilhem nuance : l'interprétation est inévitable et le scientifique doit être conscient que son questionnement et ses outils façonnent la réponse de la nature.",
+    "category": "Méthodes et démarches",
+    "difficulty": "hard",
+    "book": "Méthodologie"
+  },
+  {
+    "id": "fc-101",
+    "question": "Comment la notion de \"milieu\" est-elle traitée différemment par Lamarck et Darwin, selon Canguilhem ?",
+    "answer": "Pour Lamarck, le milieu extérieur a une action directe et dominante qui force le vivant à s'adapter. Pour Darwin, le rapport fondamental est celui de vivant à vivant (proies, prédateurs), qui prime sur le milieu physico-chimique.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard",
+    "book": "La Connaissance de la vie"
+  },
+  {
+    "id": "fc-102",
+    "question": "Quelle est la vision de la civilisation dans \"Le Mur invisible\" ?",
+    "answer": "La civilisation est vue comme une source d'aliénation, de violence, de superficialité et de destruction. Sa disparition est une catastrophe mais aussi une opportunité de renaissance pour la narratrice.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium",
+    "book": "Le Mur invisible"
+  }
+]
