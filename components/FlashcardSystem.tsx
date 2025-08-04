@@ -1,11 +1,27 @@
-import React, { useState } from 'react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card';
-import { Button } from './ui/button';
-import { Badge } from './ui/badge';
-import { ArrowLeft, Plus, RotateCcw, ChevronLeft, ChevronRight, Brain, Clock } from 'lucide-react';
+import React, { useState } from "react";
+import {
+  Card,
+  CardHeader,
+  CardContent,
+  CardTitle,
+  CardDescription,
+} from "./ui/card";
+import { Button } from "./ui/button";
+import { Badge } from "./ui/badge";
+import { Brain, Clock, ChevronLeft, ChevronRight, ArrowLeft, Plus } from "lucide-react";
 
 export default function FlashcardSystem({ flashcards, onBack, onCreateFlashcard, initialCardId }) {
+  function shuffleArray(array) {
+    const arr = array.slice();
+    for (let i = arr.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [arr[i], arr[j]] = [arr[j], arr[i]];
+    }
+    return arr;
+  }
+
   const [studyMode, setStudyMode] = useState(!!initialCardId);
+  const [shuffledCards, setShuffledCards] = useState(flashcards);
   const [currentCardIndex, setCurrentCardIndex] = useState(() => {
     if (initialCardId) {
       const index = flashcards.findIndex(card => card.id === initialCardId);
@@ -17,21 +33,21 @@ export default function FlashcardSystem({ flashcards, onBack, onCreateFlashcard,
   const [sessionStats, setSessionStats] = useState({ correct: 0, incorrect: 0 });
 
   const startStudySession = () => {
+    setShuffledCards(shuffleArray(flashcards));
     setStudyMode(true);
     setCurrentCardIndex(0);
     setShowAnswer(false);
     setSessionStats({ correct: 0, incorrect: 0 });
   };
 
-  const nextCard = (wasCorrect = null) => {
+  const nextCard = (wasCorrect: boolean | null = null) => {
     if (wasCorrect !== null) {
       setSessionStats(prev => ({
         ...prev,
         [wasCorrect ? 'correct' : 'incorrect']: prev[wasCorrect ? 'correct' : 'incorrect'] + 1
       }));
     }
-    
-    if (currentCardIndex < flashcards.length - 1) {
+    if (currentCardIndex < shuffledCards.length - 1) {
       setCurrentCardIndex(prev => prev + 1);
       setShowAnswer(false);
     } else {
@@ -47,9 +63,9 @@ export default function FlashcardSystem({ flashcards, onBack, onCreateFlashcard,
     }
   };
 
-  if (studyMode && flashcards.length > 0) {
-    const currentCard = flashcards[currentCardIndex];
-    const progress = ((currentCardIndex + 1) / flashcards.length) * 100;
+  if (studyMode && shuffledCards.length > 0) {
+    const currentCard = shuffledCards[currentCardIndex];
+    const progress = ((currentCardIndex + 1) / shuffledCards.length) * 100;
 
     return (
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 p-4">
@@ -62,7 +78,7 @@ export default function FlashcardSystem({ flashcards, onBack, onCreateFlashcard,
             </Button>
             <div className="text-center">
               <p className="text-sm text-muted-foreground">
-                Carte {currentCardIndex + 1} sur {flashcards.length}
+              Carte {currentCardIndex + 1} sur {shuffledCards.length}
               </p>
               <div className="w-32 h-2 bg-gray-200 rounded-full mt-1">
                 <div 
@@ -130,7 +146,7 @@ export default function FlashcardSystem({ flashcards, onBack, onCreateFlashcard,
             <Button 
               variant="outline" 
               onClick={() => nextCard()}
-              disabled={currentCardIndex === flashcards.length - 1 && !showAnswer}
+              disabled={currentCardIndex === shuffledCards.length - 1 && !showAnswer}
             >
               Suivante
               <ChevronRight className="w-4 h-4 ml-2" />

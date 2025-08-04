@@ -1,0 +1,738 @@
+[
+  {
+    "id": "fc-1",
+    "question": "Quelle est la date et le lieu de naissance de Jules Verne ?",
+    "answer": "Jules Gabriel Verne naît le 8 février 1828 à Nantes (île Feydeau).",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-2",
+    "question": "Quel épisode d’enfance montre le goût d’aventure de Verne ?",
+    "answer": "À 11 ans, il tente de fuguer en se faisant passer pour mousse vers les Indes, stoppé à Paimboeuf.",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-3",
+    "question": "Quel rôle Pierre-Jules Hetzel joue-t-il pour Verne ?",
+    "answer": "En 1862, Hetzel publie Cinq semaines en ballon et lance la série « Voyages extraordinaires ».",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-4",
+    "question": "Quel est le contexte historique de Vingt mille lieues sous les mers ?",
+    "answer": "La chute du Second Empire en 1870 et l’avènement de la Troisième République.",
+    "category": "Contexte historique et social",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-5",
+    "question": "Qu’est-ce que la Commune de Paris (1871) ?",
+    "answer": "Insurrection populaire à Paris du 18 mars au 28 mai 1871, réprimée lors de la Semaine sanglante.",
+    "category": "Contexte historique et social",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-6",
+    "question": "Quels secteurs industriels connaissent un essor sous le Second Empire ?",
+    "answer": "Chemin de fer, sidérurgie, textile, chimie et exploitation minière.",
+    "category": "Contexte historique et social",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-7",
+    "question": "Qu’est-ce que le « merveilleux scientifique » chez Verne ?",
+    "answer": "Sous-genre mêlant avancées technologiques réelles et anticipation aventureuse.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-8",
+    "question": "Comment s’explique l’effet de suspense ou « cliffhanger » ?",
+    "answer": "Fins de chapitres haletantes en feuilleton, incitant à lire la suite.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-9",
+    "question": "Quelles idées majeures du positivisme se retrouvent dans Vingt mille lieues ?",
+    "answer": "Science comme unique savoir fiable, empirisme, progrès technologique prioritaire.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-10",
+    "question": "Comment Nemo critique-t-il la science ?",
+    "answer": "Son isolement et son malheur illustrent les dérives d’une science déconnectée de l’humain.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-11",
+    "question": "Qui est Marlen Haushofer et quelle œuvre étudie la fiche 4 ?",
+    "answer": "Écrivaine autrichienne, auteur de Le Mur invisible (1963).",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-12",
+    "question": "Quel est le contexte historique du Mur invisible ?",
+    "answer": "Guerre froide et premiers débats écologiques (années 1960).",
+    "category": "Contexte historique et social",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-13",
+    "question": "Que symbolise le mur dans Le Mur invisible ?",
+    "answer": "Frontière infranchissable entre l’humanité et la nature sauvage.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-14",
+    "question": "Qui est George Canguilhem et quel texte étudie la fiche 7 ?",
+    "answer": "Philosophe et historien des sciences, auteur de La Connaissance de la vie (1943).",
+    "category": "Biographie et genèse de l’œuvre",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-15",
+    "question": "Comment Canguilhem définit-il la santé ?",
+    "answer": "Capacité d’un organisme à s’adapter et maintenir son équilibre.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-16",
+    "question": "Quel est le thème central de La Connaissance de la vie ?",
+    "answer": "Vitalisme : vie dotée d’un principe irréductible aux lois physico-chimiques.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-17",
+    "question": "Qu’appelle-t-on « expérimentateurs » dans la partie transversale ?",
+    "answer": "Acteurs qui observent et manipulent la nature pour produire du savoir.",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-18",
+    "question": "Quelle distinction fait Canguilhem entre observation et expérience ?",
+    "answer": "Observation passive vs expérimentation active pour tester des hypothèses.",
+    "category": "Méthodes et démarches",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-19",
+    "question": "Qu’est-ce que l’expérience esthétique selon la fiche 21 ?",
+    "answer": "Rencontre sensible et émotionnelle entre l’homme et la nature.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-20",
+    "question": "Comment l’homme se compare-t-il aux autres vivants ?",
+    "answer": "Ambivalence entre continuité avec et domination sur les autres espèces.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-21",
+    "question": "Quelle citation illustre la formule « L’homme est un loup pour l’homme » ?",
+    "answer": "Citation de Hobbes soulignant la violence intrinsèque des rapports humains.",
+    "category": "Citations et ressources fondatrices",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-22",
+    "question": "Qu’entend-on par « force vitale » de la nature ?",
+    "answer": "Énergie créatrice et auto-organisation immanente aux êtres vivants.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-23",
+    "question": "Quels grands dangers pèsent sur la nature aujourd’hui ?",
+    "answer": "Pollution, déforestation, changement climatique et perte de biodiversité.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-24",
+    "question": "Qu’est-ce qu’un « humaniste écologiste » selon la fiche 26 ?",
+    "answer": "Auteur défendant la nature comme valeur morale et culturelle à préserver.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-25",
+    "question": "Pourquoi étudier la nature selon la fiche 27 ?",
+    "answer": "Pour comprendre les lois du vivant et orienter nos pratiques sociales.",
+    "category": "Méthodes et démarches",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-26",
+    "question": "Quels sont les enjeux méthodologiques pour expérimenter la nature ?",
+    "answer": "Équilibre entre respect des écosystèmes et rigueur scientifique.",
+    "category": "Méthodes et démarches",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-27",
+    "question": "Quels conseils pour faire un résumé de texte efficace ?",
+    "answer": "Extraire l’idée directrice, suivre la progression du texte, reformuler brièvement.",
+    "category": "Méthodes et démarches",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-28",
+    "question": "Quelles étapes pour réussir une dissertation ?",
+    "answer": "Problématisation, plan structuré, argumentation étayée, introduction et conclusion soignées.",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-29",
+    "question": "Citez un exemple de citation incontournable de Verne.",
+    "answer": "« La mer est tout. Elle couvre sept dixièmes du globe. »",
+    "category": "Citations et ressources fondatrices",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-30",
+    "question": "Quelle citation de Canguilhem sur la normalité ?",
+    "answer": "« Le normal et le pathologique se définissent mutuellement. »",
+    "category": "Citations et ressources fondatrices",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-31",
+    "question": "Pourquoi le Mur invisible est-il un roman d’isolement ?",
+    "answer": "Parce que la narratrice vit seule, coupée du monde par un mur biologique.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-32",
+    "question": "Quel mouvement littéraire influence le roman de Verne ?",
+    "answer": "Naturalisme et romantisme, mêlant rigueur descriptive et exaltation du sublime.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-33",
+    "question": "Qu’est-ce qu’une robinsonnade ?",
+    "answer": "Récit d’isolement sur une île, à la manière de Robinson Crusoé.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-34",
+    "question": "Quelle innovation en plongée inspire le Nautilus ?",
+    "answer": "Le scaphandre autonome de Rouquayrol et Denayrouze (1864).",
+    "category": "Contexte historique et social",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-35",
+    "question": "Comment Verne anticipe-t-il l’usage de l’électricité ?",
+    "answer": "Il équipe le Nautilus d’un éclairage et d’une propulsion électrique avancés.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-36",
+    "question": "Quel est l’impact de l’Exposition universelle de 1867 ?",
+    "answer": "Démocratisation des savoirs scientifiques et valorisation de l’exotisme.",
+    "category": "Contexte historique et social",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-37",
+    "question": "Quelle place tient la cartographie dans le roman ?",
+    "answer": "Outil de découverte et d’appropriation du territoire sous-marin.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-38",
+    "question": "Quel est le lien entre science et aventure chez Verne ?",
+    "answer": "La rigueur scientifique sert de socle à l’exploration et au récit d’aventure.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-39",
+    "question": "Pourquoi parler de ‘laboratoire naturel’ pour le Nautilus ?",
+    "answer": "Parce qu’il explore et étudie les milieux océaniques comme un scientifique.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-40",
+    "question": "Qu’est-ce qu’un schéma narratif feuilletonnesque ?",
+    "answer": "Publication par épisodes avec cliffhangers à chaque fin de rubrique.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-41",
+    "question": "Comment Verne utilise-t-il les travaux de Cuvier et Darwin ?",
+    "answer": "Il s’appuie sur leurs recherches pour cataloguer la faune sous-marine.",
+    "category": "Citations et ressources fondatrices",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-42",
+    "question": "Quel rôle joue le domestique Conseil ?",
+    "answer": "Assistant et catalogueur des espèces marines auprès d’Aronnax.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-43",
+    "question": "Quels liens entre science et politique dans le roman ?",
+    "answer": "Critique du pouvoir colonial et des ambitions impérialistes via Nemo.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-44",
+    "question": "Quelle est la portée philosophique de l’aventure sous-marine ?",
+    "answer": "Réflexion sur la place de l’homme face à l’immensité et à l’inconnu.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-45",
+    "question": "Quel sous-genre littéraire naît avec Frankenstein ?",
+    "answer": "Le roman de science-fiction et anticipation, ancêtre du merveilleux scientifique.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-46",
+    "question": "Quelle est la spécificité du résumé type CentraleSupélec ?",
+    "answer": "Synthèse rigoureuse et structurée en respectant l’ordre logique du texte.",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-47",
+    "question": "Comment choisir un plan de dissertation équilibré ?",
+    "answer": "Alterner thèses et antithèses pour chaque partie, puis synthèse finale.",
+    "category": "Méthodes et démarches",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-48",
+    "question": "Pourquoi la nature éclaire-t-elle la condition humaine ?",
+    "answer": "Elle révèle nos forces, nos limites et nourrit la réflexion philosophique.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-49",
+    "question": "Quel dispositif méthodologique pour expérimenter la nature ?",
+    "answer": "Carnets de terrain, protocoles d’observation et prise en compte de l’éthique.",
+    "category": "Méthodes et démarches",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-50",
+    "question": "Quelle leçon tirer des citations incontournables ?",
+    "answer": "Les grandes œuvres combinent rigueur scientifique et profondeur humaine.",
+    "category": "Citations et ressources fondatrices",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-51",
+    "question": "Quel est le point de vue narratif utilisé dans Le Mur invisible ?",
+    "answer": "La première personne du singulier, perspective de la narratrice anonyme.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-52",
+    "question": "Comment Marlen Haushofer décrit-elle la nature dans Le Mur invisible ?",
+    "answer": "Comme une force brute et indifférente, à la fois hostile et régénératrice.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-53",
+    "question": "Quel rôle joue l’animal “B” dans Le Mur invisible ?",
+    "answer": "Compagnon de la narratrice, symbole de la continuité de la vie sauvage.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-54",
+    "question": "Qu’est-ce qu’une « littérature de l’abîme » selon la fiche 8 ?",
+    "answer": "Genre explorant l’isolement extrême et la confrontation à la mort.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-55",
+    "question": "Comment Canguilhem articule-t-il norme et valeur dans La Connaissance de la vie ?",
+    "answer": "La norme est une valeur sociale, non un simple critère naturel universel.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-56",
+    "question": "Dans quelle mesure Canguilhem critique-t-il l’objectivité pure ?",
+    "answer": "Il montre que l’observation est toujours médiatisée par des jugements de valeur.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-57",
+    "question": "Quelle est la différence entre « normalité » et « standardisation » ?",
+    "answer": "La normalité est contextuelle et vivante, la standardisation est une contrainte extérieure.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-58",
+    "question": "Quel est l’objet de la « méthode comparée » chez Canguilhem ?",
+    "answer": "Comparer les êtres vivants pour définir la spécificité de la vie.",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-59",
+    "question": "Comment la dichotomie vivant/inanimé est-elle abordée ?",
+    "answer": "Comme floue, les artefacts peuvent présenter des propriétés « vitales ».",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-60",
+    "question": "Quel exemple Canguilhem donne-t-il pour illustrer l’adaptation ?",
+    "answer": "La tolérance accrue d’un individu exposé progressivement à un toxique.",
+    "category": "Méthodes et démarches",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-61",
+    "question": "Quel est le rôle du schéma expérimental en philosophie des sciences ?",
+    "answer": "Permet de modéliser les mécanismes de la connaissance vécue.",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-62",
+    "question": "Quels sont les trois moments de l’expérience esthétique ?",
+    "answer": "Perception, émotion et réflexion critique.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-63",
+    "question": "Comment l’exposition esthétique diffère-t-elle de l’expérience scientifique ?",
+    "answer": "Elle privilégie la subjectivité et la valeur symbolique plutôt que la mesure.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-64",
+    "question": "Quelle posture l’homme adopte-t-il face aux autres vivants selon la fiche 22 ?",
+    "answer": "Ambivalente : à la fois dominatrice et solidaire.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-65",
+    "question": "Quel lien fait-on entre Hobbes et Rousseau dans la fiche 23 ?",
+    "answer": "Contraste entre vision conflictualiste et vision communautaire de l’homme.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-66",
+    "question": "Pourquoi parle-t-on de « crise écologique » ?",
+    "answer": "Déséquilibres environnementaux menaçant la survie des espèces.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-67",
+    "question": "Qu’entend-on par « Anthropocène » ?",
+    "answer": "Nouvelle ère géologique dominée par l’impact humain.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-68",
+    "question": "Quels auteurs humanistes écologistes sont cités en fiche 26 ?",
+    "answer": "Ralph Waldo Emerson, Henry David Thoreau et Aldo Leopold.",
+    "category": "Citations et ressources fondatrices",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-69",
+    "question": "Comment Thoreau conçoit-il la relation homme-nature ?",
+    "answer": "Comme une symbiose, l’homme doit vivre simplement et en harmonie.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-70",
+    "question": "Quels principes éthiques guident l’expérimentation en plein air ?",
+    "answer": "Respect de l’écosystème, minimisation de l’impact, consentement des communautés locales.",
+    "category": "Méthodes et démarches",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-71",
+    "question": "Quelle méthode pour analyser un texte philosophique ?",
+    "answer": "Identifier la problématique, découper en arguments et contre-arguments, illustrer par des exemples.",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-72",
+    "question": "Comment problématiser une dissertation ?",
+    "answer": "Relever la tension centrale du sujet et la formuler sous forme de question ouverte.",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-73",
+    "question": "Qu’est-ce qu’un plan dialectique ?",
+    "answer": "Organisation en thèse, antithèse et synthèse.",
+    "category": "Méthodes et démarches",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-74",
+    "question": "Pourquoi citer des exemples concrets dans une dissertation ?",
+    "answer": "Pour illustrer et renforcer l’argumentation.",
+    "category": "Méthodes et démarches",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-75",
+    "question": "Quel rôle joue la conclusion dans une dissertation ?",
+    "answer": "Récapituler, ouvrir le débat et proposer une perspective nouvelle.",
+    "category": "Méthodes et démarches",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-76",
+    "question": "Comment Verne utilise-t-il la géographie pour crédibiliser son récit ?",
+    "answer": "Descriptions précises de courants, fonds marins et reliefs sous-marins.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-77",
+    "question": "Quels sont les apports de la paléontologie dans le roman de Verne ?",
+    "answer": "Références aux fossiles marins et aux théories de l’évolution.",
+    "category": "Courants et influences intellectuelles",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-78",
+    "question": "Comment Verne imagine-t-il la physiologie du Nautilus ?",
+    "answer": "Propulsion par moteurs à vapeur et électricité, autonomie sous-marine prolongée.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-79",
+    "question": "Quel est le rapport entre science et utopie dans Vingt mille lieues ?",
+    "answer": "Science sert de base à une utopie sous-marine idéalisée.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-80",
+    "question": "Pourquoi le personnage d’Aronnax est-il indispensable ?",
+    "answer": "Il incarne la curiosité scientifique et le regard du savoir sur la nature.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-81",
+    "question": "Quelles techniques descriptives Verne utilise-t-il pour les créatures marines ?",
+    "answer": "Lexique précis, mesures chiffrées et comparaisons naturalistes.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-82",
+    "question": "Comment l’ambiance sonore est-elle restituée à bord du Nautilus ?",
+    "answer": "Mots onomatopéiques et évocations d’échos sous-marins.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-83",
+    "question": "Pourquoi Verne intègre-t-il des plans et des coupes du Nautilus ?",
+    "answer": "Pour donner une vision technique et augmenter la vraisemblance.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-84",
+    "question": "Quel est l’effet de la ponctuation dans les passages d’action ?",
+    "answer": "Usage de tirets, points d’exclamation et phrases brèves pour l’intensité.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-85",
+    "question": "Comment le roman questionne-t-il la frontière homme/animal ?",
+    "answer": "Par l’étude des créatures marines et l’anamnèse de Nemo.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-86",
+    "question": "Quelle dimension écologique se devine dans Vingt mille lieues ?",
+    "answer": "Sensibilisation à la fragilité des écosystèmes marins.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-87",
+    "question": "Pourquoi le motif de l’océan infini fascine-t-il Verne ?",
+    "answer": "Symbole de l’inconnu, du possible et de la grandeur de la nature.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-88",
+    "question": "Comment la notion de temps est-elle manipulée dans le récit ?",
+    "answer": "Alternance de descriptions lentes et de scènes d’urgence pour créer du rythme.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-89",
+    "question": "Quel usage Verne fait-il des références mythologiques ?",
+    "answer": "Comparaisons du Nautilus à l’antique Argo ou aux chimères marines.",
+    "category": "Citations et ressources fondatrices",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-90",
+    "question": "Comment Verne introduit-il la notion d’« autre » à travers Nemo ?",
+    "answer": "Nemo est un alter ego complexe, à la fois génial et monstrueux.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-91",
+    "question": "Quelle fonction narrative remplit le personnage Ned Land ?",
+    "answer": "Il incarne l’homme d’action et apporte un contrepoint à l’intellectualisme.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-92",
+    "question": "Pourquoi la fin du roman reste-t-elle ouverte ?",
+    "answer": "Pour entretenir le mystère et inviter à l’imagination du lecteur.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "easy"
+  },
+  {
+    "id": "fc-93",
+    "question": "Qu’est-ce que la « machine littéraire » selon la fiche 17 ?",
+    "answer": "Le dispositif narratif et technique permettant de produire le récit.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-94",
+    "question": "Comment le texte reflète-t-il l’esprit du XIXᵉ siècle ?",
+    "answer": "Foi dans le progrès, voyages et découvertes scientifiques.",
+    "category": "Contexte historique et social",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-95",
+    "question": "Quel est l’apport de l’édition Hetzel aux romans de Verne ?",
+    "answer": "Illustrations colorées et textes remaniés pour un public familial.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-96",
+    "question": "Pourquoi Verne utilise-t-il un style didactique ?",
+    "answer": "Pour informer et divertir, marier savoirs et aventure.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-97",
+    "question": "Quel parallèle peut-on faire entre Nemo et Prométhée ?",
+    "answer": "Tous deux volent le feu (la science) pour le donner à l’humanité ou le punir.",
+    "category": "Citations et ressources fondatrices",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-98",
+    "question": "Comment le roman questionne-t-il la frontière réel/fantastique ?",
+    "answer": "Grâce à une documentation précise rendant crédible l’imaginaire.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "hard"
+  },
+  {
+    "id": "fc-99",
+    "question": "Quel rôle joue la décoration intérieure du Nautilus ?",
+    "answer": "Reflet du raffinement et de l’érudition de Nemo.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-100",
+    "question": "Pourquoi Verne place-t-il souvent ses récits en mer ?",
+    "answer": "L’océan est un espace infini propice à l’aventure et à la découverte scientifique.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "easy"
+  },
+{
+    "id": "fc-101",
+    "question": "Comment la structure en chapitres contribue-t-elle au rythme du récit ?",
+    "answer": "Chaque chapitre présente une nouvelle découverte ou péripétie, maintenant l'intérêt du lecteur.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-102",
+    "question": "Quel est le rôle de la science dans la caractérisation des personnages ?",
+    "answer": "La science façonne les compétences et les motivations des personnages, comme Aronnax et Nemo.",
+    "category": "Personnages et symboles clés",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-103",
+    "question": "Comment Verne utilise-t-il l'humour dans ses récits ?",
+    "answer": "Pour alléger le ton et créer un contraste avec les situations dramatiques.",
+    "category": "Techniques et styles littéraires",
+    "difficulty": "easy"
+  }
+,
+{
+    "id": "fc-104",
+    "question": "Quelle est la signification du titre 'Vingt mille lieues sous les mers' ?",
+    "answer": "Il évoque l'immensité des océans et les distances parcourues par le Nautilus.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "medium"
+  },
+  {
+    "id": "fc-105",
+    "question": "Comment la notion de 'voyage initiatique' est-elle présente dans le roman ?",
+    "answer": "Les personnages évoluent et apprennent sur eux-mêmes à travers leurs aventures sous-marines.",
+    "category": "Thèmes et enjeux philosophiques",
+    "difficulty": "hard"
+  }
+]
